@@ -1,48 +1,56 @@
-import os
+import argparse
 import logging
 from pyspark.sql import SparkSession
 from pyspark import SparkConf, SparkContext
 
 
 class ScriptInterface:
-    """ Script model class.
+    """
+    Script interface.
     Creates a Spark session according to the given app name and obtains the datasets according to the .env file.
     :argument app_name: Name of the Spark application.
     :type app_name: str
     """
 
     def __init__(self, app_name):
-        self.spark = self.create_spark_session(app_name)
-        self.test_mode = os.getenv('TEST_MODE', 'false').lower() == 'true'
-        self.data_set = os.getenv('DATA_SET')
+        # Set parsing arguments
+        parser = argparse.ArgumentParser()
+        parser.add_argument('-t', '--test', action='store_true', help='Set to launch in test mode')
 
-    @staticmethod
-    def create_spark_session(app_name):
+        self.app_name = app_name
+        self.log = self.set_logging()  # Set logging configuration
+        self.spark = self.create_spark_session()
+        self.test_mode = parser.parse_args().test
+        self.data_set = 'bigquery-public-data.github_repos'
+
+        self.log.info("Test mode: %s", self.test_mode)
+
+    def create_spark_session(self):
         """
         Creates a Spark session.
-        :param app_name:
-        :type app_name: str
         :return: Spark session .
         """
         # Create Spark configuration and context
-        conf = SparkConf().setAppName(app_name)
+        conf = SparkConf().setAppName(self.app_name)
         sc = SparkContext(conf=conf)
-        sc.setLogLevel('ERROR')
+        sc.setLogLevel("ERROR")
         # Create Spark session
         return SparkSession(sc)
 
-    @staticmethod
-    def set_logging():
+    def set_logging(self):
         """
         Configures the logging tool. The level is INFO and the format is: [app_name] [timestamp] [level] [message].
         Logs will be stored in logs folder.
+        :return: Logger object.
         """
-        logging.basicConfig(format='[%(name)s] %(asctime)s %(levelname)s %(message)s', level=logging.INFO)
-        logging.getLogger().addHandler(logging.FileHandler('logs/logs.log'))
+        logging.basicConfig(format='['+self.app_name+'] %(asctime)s %(levelname)s %(message)s', level=logging.INFO)
+        logging.getLogger().addHandler(logging.FileHandler('../logs/logs.log'))
+
+        return logging.getLogger(__name__)
 
     def get_table(self, table_name):
         """
-        Gets the table according to the test_mode variable set by the .env file.
+        Gets the table according to the test_mode variable set by the test_mode argument.
         :param table_name: Name of the table to load.
         :type table_name: str
         :return: Spark dataframe with the table data.
@@ -59,8 +67,8 @@ class ScriptInterface:
         :type table_name: str
         :return: Spark dataframe with the table data.
         """
-        logging.info('Loading table %s for test mode', table_name)
-        file_path = f'resources/{table_name}.csv'
+        self.log.info('Loading table %s for test mode', table_name)
+        file_path = f'../resources/{table_name}.csv'
 
         return self.spark.read.csv(file_path, header=True, inferSchema=True)
 
@@ -71,7 +79,7 @@ class ScriptInterface:
         :type table_name: str
         :return: Spark dataframe with the table data.
         """
-        logging.info('Loading table %s for production mode', table_name)
+        self.log.info('Loading table %s for production mode', table_name)
 
         return self.spark.read.format("bigquery").option("table", f"{self.data_set}.{table_name}").load()
 
@@ -80,3 +88,11 @@ class ScriptInterface:
         Process the data. Implement this method in the script child class.
         """
         raise NotImplementedError("This method should be implemented in the child class")
+
+    def run(self):
+        """
+        Runs the script. This method should not be modified.
+        """
+        self.log.info('Running script %s', self.__class__.__name__)
+        self.process_data()
+        self.log.info('Script %s finished', self.__class__.__name__)
