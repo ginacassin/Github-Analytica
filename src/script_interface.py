@@ -18,6 +18,12 @@ class ScriptInterface:
 
     @staticmethod
     def create_spark_session(app_name):
+        """
+        Creates a Spark session.
+        :param app_name:
+        :type app_name: str
+        :return: Spark session .
+        """
         # Create Spark configuration and context
         conf = SparkConf().setAppName(app_name)
         sc = SparkContext(conf=conf)
@@ -37,6 +43,9 @@ class ScriptInterface:
     def get_table(self, table_name):
         """
         Gets the table according to the test_mode variable set by the .env file.
+        :param table_name: Name of the table to load.
+        :type table_name: str
+        :return: Spark dataframe with the table data.
         """
         if self.test_mode:
             return self.load_data_test(table_name)
@@ -46,6 +55,9 @@ class ScriptInterface:
     def load_data_test(self, table_name):
         """
         Loads the table determined by table name for test mode. These are located on resources' folder in .csv format.
+        :param table_name: Name of the table to load.
+        :type table_name: str
+        :return: Spark dataframe with the table data.
         """
         logging.info('Loading table %s for test mode', table_name)
         file_path = f'resources/{table_name}.csv'
@@ -55,7 +67,16 @@ class ScriptInterface:
     def load_data_prod(self, table_name):
         """
         Loads the table determined by table name for production mode. These are located on a public BigQuery dataset.
+        :param table_name: Name of the table to load.
+        :type table_name: str
+        :return: Spark dataframe with the table data.
         """
         logging.info('Loading table %s for production mode', table_name)
 
         return self.spark.read.format("bigquery").option("table", f"{self.data_set}.{table_name}").load()
+
+    def process_data(self):
+        """
+        Process the data. Implement this method in the script child class.
+        """
+        raise NotImplementedError("This method should be implemented in the child class")
