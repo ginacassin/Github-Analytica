@@ -24,6 +24,14 @@ The scripts, and a brief explanation of what they do, are as follows:
 
 - 
 
+## How to run
+### Local
+1. Clone the repository
+2. Install the requirements
+3. Set .env file depending on your goal. The .env file should be in the root of the project.
+4. Run the script you want to execute
+
+
 ## About the datasets
 ### Test dataset
 The test dataset is a small subset of the original dataset. It is used for testing purposes and is not included in the final results.
