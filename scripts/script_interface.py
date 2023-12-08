@@ -1,5 +1,7 @@
 import argparse
 import logging
+import os
+from dotenv import load_dotenv
 from pyspark.sql import SparkSession
 from pyspark import SparkConf, SparkContext
 
@@ -17,6 +19,8 @@ class ScriptInterface:
         parser = argparse.ArgumentParser()
         parser.add_argument('-t', '--test', action='store_true', help='Set to launch in test mode')
 
+        load_dotenv()
+
         self.app_name = app_name
         self.log = self.set_logging()  # Set logging configuration
         self.spark = self.create_spark_session()
@@ -28,7 +32,7 @@ class ScriptInterface:
     def create_spark_session(self):
         """
         Creates a Spark session.
-        :return: Spark session .
+        :return: Spark session.
         """
         # Create Spark configuration and context
         conf = SparkConf().setAppName(self.app_name)
@@ -74,14 +78,15 @@ class ScriptInterface:
 
     def load_data_prod(self, table_name):
         """
-        Loads the table determined by table name for production mode. These are located on a public BigQuery dataset.
+        Loads the table determined by table name for production mode. These are located on a GCP Bucket.
         :param table_name: Name of the table to load.
         :type table_name: str
         :return: Spark dataframe with the table data.
         """
         self.log.info('Loading table %s for production mode', table_name)
+        bucket = os.getenv('BUCKET')
 
-        return self.spark.read.format("bigquery").option("table", f"{self.data_set}.{table_name}").load()
+        return self.spark.read.csv(f'{bucket}/{table_name}.csv', header=True, inferSchema=True)
 
     def process_data(self):
         """
