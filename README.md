@@ -26,7 +26,7 @@ The project consists of x number of scripts, each with a specific purpose. They 
 The scripts, and a brief explanation of what they do, are as follows:
 
 - **Top 15 languages:** obtains the top 15 languages used in GitHub repositories. 
-- 
+- **Top 5 licenses**: obtains the top 5 open-source licenses used in GitHub repositories.
 
 ## How to run
 ### Local
