@@ -55,7 +55,7 @@ class ScriptInterface:
         formatter = logging.Formatter('[%(name)s] %(asctime)s %(levelname)s %(message)s') # Create formatter
 
         # Create file handler and set formatter
-        file_handler = logging.FileHandler('../logs/logs.log')
+        file_handler = logging.FileHandler('./logs/logs.log')
         file_handler.setFormatter(formatter)
 
         # Add file handler to logger
@@ -83,7 +83,7 @@ class ScriptInterface:
         :return: Spark dataframe with the table data.
         """
         self.log.info('Loading table %s for test mode', table_name)
-        file_path = f'../resources/{table_name}.csv'
+        file_path = f'./resources/{table_name}.csv'
 
         return self.spark.read.csv(file_path, header=True, inferSchema=True)
 
@@ -104,6 +104,18 @@ class ScriptInterface:
         Process the data. Implement this method in the script child class.
         """
         raise NotImplementedError('This method should be implemented in the child class')
+
+    def save_data(self, df, table_name):
+        """
+        Saves the dataframe to a CSV file.
+        :param df: Dataframe to save.
+        :type df: pyspark.sql.dataframe.DataFrame
+        :param table_name: Name of the table to save.
+        :type table_name: str
+        """
+        self.log.info('Saving result %s.csv', table_name)
+
+        df.toPandas().to_csv(f'./results/{table_name}.csv', index=False, sep=',')
 
     def run(self):
         """
