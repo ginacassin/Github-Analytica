@@ -46,4 +46,4 @@ The datasets were obtained using the following query on BigQuery and then downlo
 
 These can be found on the `resources` folder.
 
-Some of these datasets had to be cleaned in order to be used, mostly because in BigQuery some values were stored as records (so when it downloaded, it downloaded as a column with a .json file). The cleaning scripts used can be found in the `src` folder.
+Some of these datasets had to be cleaned in order to be used, mostly because in BigQuery some values were stored as records (so when it downloaded, it downloaded as a column with a .json file). The cleaning scripts used can be found in the `src` folder. This was mostly useful for the scripts that used the table `languages`.
