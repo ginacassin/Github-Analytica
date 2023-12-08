@@ -10,8 +10,10 @@ Why bother, you ask? For students grasping coding nuances or those embarking on 
 
 ## Run requirements
 - Python 3.9
-- Pip
-- PySpark 
+- Pip. Install the following dependencies:
+  - Python-dotenv: `pip install python-dotenv`
+- [PySpark](https://spark.apache.org/docs/latest/api/python/getting_started/install.html)
+- Set .env file with Bucket path to the datasets (see .env for reference)
 
 ## Architecture
 
@@ -22,15 +24,17 @@ The project consists of x number of scripts, each with a specific purpose. They 
 
 The scripts, and a brief explanation of what they do, are as follows:
 
+- **Top 15 languages:** obtains the top 15 languages used in GitHub repositories. 
 - 
 
 ## How to run
 ### Local
-1. Clone the repository
-2. Install the requirements
-3. Set .env file depending on your goal. The .env file should be in the root of the project.
-4. Run the script you want to execute
-
+1. Clone the repository.
+2. Install the requirements.
+3. Run the script you want to execute:
+   1. Scripts can be run with the following command: `python -m scripts.{script_name}`. For example, to run the `top_15_languages` script, run `python -m scripts.top_15_languages`. 
+   2. There's also a flag for testing purposes (-t or --test), which will run the script on a small subset of the data. For example, to run the `top_15_languages` script on a small subset of the data, run `python -m scripts.top_15_languages -t`.
+   3. The logs of the script can be found in the `logs` folder. These provide a cleaner view of the script's execution.
 
 ## About the datasets
 ### Test dataset
