@@ -38,6 +38,7 @@ class ScriptInterface:
         conf = SparkConf().setAppName(self.app_name)
         sc = SparkContext(conf=conf)
         sc.setLogLevel("ERROR")
+
         # Create Spark session
         return SparkSession(sc)
 
@@ -47,10 +48,20 @@ class ScriptInterface:
         Logs will be stored in logs folder.
         :return: Logger object.
         """
-        logging.basicConfig(format='['+self.app_name+'] %(asctime)s %(levelname)s %(message)s', level=logging.INFO)
-        logging.getLogger().addHandler(logging.FileHandler('../logs/logs.log'))
+        # Create logger
+        logger = logging.getLogger(self.app_name)
+        logger.setLevel(logging.INFO)
 
-        return logging.getLogger(__name__)
+        formatter = logging.Formatter('[%(name)s] %(asctime)s %(levelname)s %(message)s') # Create formatter
+
+        # Create file handler and set formatter
+        file_handler = logging.FileHandler('../logs/logs.log')
+        file_handler.setFormatter(formatter)
+
+        # Add file handler to logger
+        logger.addHandler(file_handler)
+
+        return logger
 
     def get_table(self, table_name):
         """
