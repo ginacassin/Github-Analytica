@@ -27,7 +27,7 @@ class ScriptInterface:
         self.test_mode = parser.parse_args().test
         self.data_set = 'bigquery-public-data.github_repos'
 
-        self.log.info("Test mode: %s", self.test_mode)
+        self.log.info('Test mode: %s', self.test_mode)
 
     def create_spark_session(self):
         """
@@ -37,7 +37,7 @@ class ScriptInterface:
         # Create Spark configuration and context
         conf = SparkConf().setAppName(self.app_name)
         sc = SparkContext(conf=conf)
-        sc.setLogLevel("ERROR")
+        sc.setLogLevel('ERROR')
 
         # Create Spark session
         return SparkSession(sc)
@@ -103,7 +103,7 @@ class ScriptInterface:
         """
         Process the data. Implement this method in the script child class.
         """
-        raise NotImplementedError("This method should be implemented in the child class")
+        raise NotImplementedError('This method should be implemented in the child class')
 
     def run(self):
         """
