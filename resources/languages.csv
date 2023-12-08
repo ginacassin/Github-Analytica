@@ -1,4 +1,4 @@
-repo_name,language.name,language.bytes
+repo_name,language_name,language_bytes
 lemi136/puntovent,['C'],['80']
 taxigps/nctool,['C'],['4461']
 ahy1/strbuf,['C'],['5573']
