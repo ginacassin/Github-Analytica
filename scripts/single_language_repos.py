@@ -42,7 +42,7 @@ class SingleLanguages(ScriptInterface):
             self.log.info('Top 5 languages: \n %s', top_5_languages_df.toPandas())
 
         # Save the result to a CSV file
-        self.save_data(top_5_languages_df, 'top_5_languages')
+        self.save_data(top_5_languages_df, 'top_5_single_languages')
 
 
 if __name__ == "__main__":
