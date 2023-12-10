@@ -25,9 +25,17 @@ The project consists of x number of scripts, each with a specific purpose. They 
 
 The scripts, and a brief explanation of what they do, are as follows:
 
-- **Top 15 languages:** obtains the top 15 languages used in GitHub repositories. 
+- **Top 15 languages**: obtains the top 15 languages used in GitHub repositories. 
 - **Top 5 licenses**: obtains the top 5 open-source licenses used in GitHub repositories.
 - **Master vs main**: obtains the number of repositories that use the master branch vs the main branch as a head branch.
+- **Top more active repositories**: obtains the repositories with the most commits and at least 1 commit in the last year.
+- **How many repos have READMEs**: obtains how many repos have a README as documentation.
+- **How many repos have .md**: obtains how many repos have a file.md but isnt a README
+- **repos with only 1 language:** obtains the 5 top combinations of repos that only have 1 language.
+- **repos with more than 1 language:** obtains the 5 top combinations of repos that have more than 1 language.
+- **How many repos use different build tools**:
+- **How many use Spaces vs Tabs as an indent method**: obtains which is the best practice as an indent method.
+- **How many SQL files use trailing vs leading comas**: obtains which is the most recognized practice in SQL.
 
 ## How to run
 ### Local
