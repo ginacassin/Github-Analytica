@@ -46,17 +46,17 @@ class MultiLanguages(ScriptInterface):
         # Obtain multi-language statistics
         total_multi_language_repos, avg_languages_per_repo, top_combinations = self.multi_language_stats()
 
-        # Log and print the results (if in test mode)
-        if self.test_mode:
-            self.log.info('Total repositories with more than one language: %d', total_multi_language_repos)
-            self.log.info('Average number of languages per repository: %.2f', avg_languages_per_repo)
-            top_combinations.show(truncate=False)
-            self.log.info('Top 5 language combinations: \n%s', top_combinations.toPandas())
+        # Create a DataFrame with the results
+        result_df = self.spark.createDataFrame([(total_multi_language_repos, avg_languages_per_repo)], ["total_multi_language_repos", "avg_languages_per_repo"]).crossJoin(top_combinations)
 
-        # Save the results to CSV files
-        self.save_data(total_multi_language_repos, 'total_multi_language_repos')
-        self.save_data(avg_languages_per_repo, 'avg_languages_per_repo')
-        self.save_data(top_combinations, 'top5_combinations_multi_lang')
+        # Log and print the combined result (if in test mode)
+        if self.test_mode:
+            result_df.show(truncate=False)
+            self.log.info('Combined result: \n%s', result_df.toPandas())
+
+        # Save the combined result to a CSV file
+        self.save_data(result_df, 'mul_lang_result')
+
 
 
 if __name__ == "__main__":
