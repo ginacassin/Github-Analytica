@@ -1,1 +1,23 @@
 
+[Top 15 languages] 2023-12-12 10:31:31,189 INFO Test mode: True
+[Top 15 languages] 2023-12-12 10:31:31,190 INFO Running script Top15Languages
+[Top 15 languages] 2023-12-12 10:31:31,190 INFO Loading table languages for test mode
+[Top 15 languages] 2023-12-12 10:31:38,792 INFO Top 15 languages: 
+        language  count
+0             C    522
+1           C++    427
+2         Shell    377
+3      Makefile    253
+4           CSS    246
+5        Python    239
+6    JavaScript    202
+7          HTML    196
+8   Objective-C    149
+9            C#    129
+10         Java    102
+11        CMake     90
+12         Perl     89
+13         Ruby     88
+14           Go     88
+[Top 15 languages] 2023-12-12 10:31:38,799 INFO Saving result top_15_languages.csv
+[Top 15 languages] 2023-12-12 10:31:38,888 INFO Script Top15Languages finished
