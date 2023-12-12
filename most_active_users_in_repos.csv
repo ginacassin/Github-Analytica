@@ -1,0 +1,708 @@
+author_name,count
+conda-forge-coordinator,80
+root,20
+GitHub,18
+CI Pool Resource,12
+CI Pool Trigger Resource,11
+armaneshaghi,11
+nobody,11
+Android Git Automerger,8
+nbd,8
+Gerrit Code Review,7
+grothoff,7
+robocdnjs,7
+NetKAN inflator Robot,5
+Jared Yanovich,5
+Pharm,5
+(no author),5
+changelog,5
+conda-forge-curator[bot],5
+xiphmont,4
+spectre360,4
+ftyers,4
+bosh-io-worker,4
+Rüdiger Timm,4
+thekid,4
+hellcatv,3
+hieuhoang1972,3
+Zhihui Zhang,3
+jsdelivrbot,3
+Kurt Zenker,3
+Jim Regan,3
+jonorthwash,3
+dustymc,3
+bozimmerman,2
+Vítor Galvão,2
+Steve Deitz,2
+Travis CI User,2
+Stephan Meißl,2
+schoenborn,2
+Martin Edenhofer,2
+lattner,2
+roberto.alsina,2
+Sebastian Bazley,2
+Darren Hiebert,2
+Sue Pan,2
+android-build-merger,2
+guido.van.rossum,2
+Confluent Jenkins Bot,2
+kremenek,2
+liudidi,2
+rwang,2
+matthewoliver,2
+HonkBot,2
+jow,2
+runner,2
+echristo,2
+rickb44,2
+florian,2
+jrm424,2
+drepper,2
+Wolfgang Bangerth,2
+Travis,2
+jht5945@gmail.com,2
+Steve Sperandeo,2
+JohnLevander,2
+tarvo,2
+ferg,2
+Vladimir Glazounov,2
+rjmccall,2
+all-cabal-tool,2
+Martin Lindhe,2
+sixhours,2
+benjamin.peterson,2
+tkreuzer,2
+OpenTree API,2
+mlunzena,2
+Florian Fainelli,2
+sushain97,2
+akirtzidis,2
+Adrian Otto,2
+westi,1
+Misiulo,1
+Sujai Kumar,1
+Componentizr Bot,1
+rekall-profiler,1
+tenebr050,1
+h.bolouri,1
+Anders Lindman,1
+gdombiak,1
+julie-sullivan,1
+wormboy.d,1
+Philip Homburg,1
+Johannes Schindelin,1
+Rainer Clasen,1
+wenyan,1
+compnerd,1
+gtg739c,1
+hastings,1
+Emmanuel Mongin,1
+Neil Mitchell,1
+pr,1
+john.d.levander@gmail.com,1
+Dierk König,1
+Sebastian Hammer,1
+Ibexguy,1
+Joey Riches,1
+Kris Dudkiewicz,1
+Christian Winther,1
+Steven Knight,1
+Ilya Cohn,1
+Jacob Appelbaum,1
+Allen Akers,1
+Kristof Coomans,1
+Beth Kirschner,1
+vijaymohanb4u,1
+Aaron Read,1
+Jim O'Regan,1
+Gregory John Casamento,1
+mgruner,1
+Tom O'Dwyer,1
+Ken Weiner,1
+Christian Grobmeier,1
+small_duck,1
+mark.dickinson,1
+Nay,1
+Kir Dergachev,1
+Felipe Alfonso,1
+obsy,1
+Thomas Kelder,1
+blogic,1
+fred,1
+dalimilh,1
+peter,1
+jwnmulder,1
+dreimer,1
+rasmussn,1
+decatbr,1
+paulscott,1
+runarberg,1
+E Ciotti,1
+Ravith Botejue,1
+Jan Hatje,1
+Mani Sarkar,1
+Steven Obua,1
+Damien Storm,1
+Chuck Tharp,1
+Dave J,1
+Nathan Crawford,1
+jetpax,1
+Daniel M. Drucker,1
+scriptindex,1
+vsoch,1
+Tim van der Leeuw,1
+Stanley Lau,1
+Priyank,1
+Oleg Pudeyev,1
+Bill Hill,1
+acaproni,1
+dexonsmith,1
+D. A.,1
+gam3,1
+andy.koppe,1
+jauneyellow,1
+Max Kellermann,1
+Orlando Gomes Garção,1
+adam,1
+Till Glöggler,1
+rmilecki,1
+Christopher Jefferson,1
+Gerd Hoffmann,1
+fine,1
+dfr,1
+m55624,1
+tmaruyama,1
+rjollos,1
+Sebastiano Vigna,1
+Subhajit Ghosh,1
+Bengt Lüers,1
+philip@ogren.info,1
+Arne Stabenau,1
+mrshampoo,1
+vip365,1
+William Ferguson,1
+gerrit,1
+clemens,1
+Michael Büsch,1
+jap@es.aau.dk,1
+codemaster,1
+arnetheduck,1
+Luis Cabellos,1
+Oli Evans,1
+IMPINC666@gmail.com,1
+Antonios Karagiannis,1
+Tom,1
+Love Hörnquist Åstrand,1
+francois.rouaix,1
+relan,1
+kirill.smelkov,1
+oli4,1
+Neil T. Dantam,1
+David Sheets,1
+Brian Dube,1
+Sebastian Gibb,1
+João Bordalo,1
+rafael,1
+Greg Kroah-Hartman,1
+petarj,1
+hong yie,1
+Jean-Baptiste Mardelle,1
+robmcmullen,1
+Florian Krohm,1
+ahsu,1
+Martyn Gigg,1
+Rob Allen,1
+pete,1
+astokes,1
+jorge,1
+ayates,1
+quirille,1
+Andrew Geissler,1
+Richard Hull,1
+Matthew Lemon,1
+Kaazing build,1
+gabriele.contini,1
+fmcarvalho,1
+Catrodigious,1
+cellsafemode,1
+rvm3000,1
+Nick Drochak,1
+Julia Lawall,1
+Tanaka Akira,1
+Wen Jia Liu,1
+Ant Bryan,1
+Paul King,1
+Dan Cutting,1
+Bill Pugh,1
+Khalid Mouss,1
+Tarek Ziadé,1
+Luke-Dexter,1
+idega,1
+rabla,1
+luciorota,1
+simon@imaginator.com,1
+Adam Sven Johnson,1
+김성규,1
+Речкалов Андрей Михайлович,1
+Nathan Naze,1
+rodrigoascencio,1
+Mouhamadou SEYE,1
+Eddie Abou-Jaoude,1
+Mike Lothian,1
+reinout,1
+ruiu,1
+Jan Dolecek,1
+James Smith,1
+Nathalie Lammelin,1
+Jack Wareham,1
+Bird,1
+wan35fr,1
+Jason Woodward,1
+falkb,1
+Tim Waters,1
+Oliver Bolte,1
+lordelph,1
+auria,1
+Rafal Ganczarek,1
+Steven Bird,1
+al020,1
+Adam Silver,1
+intellij-monorepo-bot,1
+mkrist,1
+Concourse,1
+Robert Scott,1
+peterhogan,1
+baozeng,1
+Frederik Gladhorn,1
+John Crispin,1
+aaronballman,1
+Scala Steward,1
+AdamG,1
+Stanley Gu,1
+brunomattarollo,1
+jmaddox,1
+fgonzalez,1
+paltherr,1
+Mat,1
+Krishna,1
+jortel,1
+depristo,1
+ianmiell,1
+aburnsni,1
+clifford,1
+Tom Symonds,1
+Felix Held,1
+Heiko W. Rupp,1
+Stuart McCulloch,1
+Michael Kaply,1
+Rodolphe Quiedeville,1
+Christopher Just,1
+cfregly,1
+Daniel Winterstein,1
+Kyle Fuller,1
+mstephan,1
+baker.steven.83,1
+ipasov,1
+Kennan Lyle Seno,1
+martincostello,1
+Cyrille Le Clerc,1
+Tilghman Lesher,1
+dgregor,1
+entryway,1
+"""Paul """"LeoNerd"""" Evans""",1
+Ivan Stojmirov,1
+swsides,1
+Josh Archer,1
+Benoit Tellier,1
+Geoffrey Sneddon,1
+epaepa,1
+James Dinan,1
+Alex,1
+Rob Sterlini,1
+Xihui Chen,1
+Ashleigh Devitt,1
+rblank,1
+athirumu,1
+jenkins,1
+Ashley Scott,1
+Test,1
+candide,1
+albert,1
+buildguest,1
+Mike D Pilsbury,1
+georg.brandl,1
+Mingcong Bai,1
+Ragnar B. Johannsson,1
+Jakub Stastny aka Botanicus,1
+mysql-builder@oracle.com,1
+Adam Dobbs,1
+sac,1
+isometimesgit,1
+Ian Crowther,1
+kiang,1
+appveyor,1
+Jose Lloret,1
+rickard.v.essen,1
+mapi,1
+benvand,1
+hbitteur,1
+Basil Shubin,1
+Francesco Longo,1
+takisd,1
+Juanjo Menent,1
+rsmith,1
+Won-Kyu Park,1
+Mathieu Doucet,1
+Francisc Nicolae Bungiu,1
+edenduthie,1
+doll,1
+bors,1
+johnny,1
+coreyoconnor@gmail.com,1
+David Schleef,1
+Mark Grealish,1
+Eldar Abusalimov,1
+No Author,1
+Laurent Destailleur,1
+kettenis,1
+aldas,1
+ahamid,1
+Pavel Demin,1
+Jan Dockx,1
+bigkahuna1uk,1
+solaomosola,1
+Olivier Lamy,1
+Kyle Mellander,1
+mbm,1
+Jason Dillon,1
+Michael Iedema,1
+JoenioCosta,1
+xmj,1
+emitvoice,1
+helijah,1
+Conrad Godfrey,1
+Eli Barzilay,1
+Daniel Richman,1
+sewardj,1
+wdietz2,1
+mthomas,1
+Thomas Raith,1
+cwcyau,1
+manico.james,1
+Arto Sandroos,1
+Nick Burka,1
+Mark Williams,1
+davidkurtz,1
+pfalcon,1
+ps790413,1
+Stefano Mazzocchi,1
+cas,1
+savior42,1
+henrik,1
+saint-thomas-moore,1
+Erich Schubert,1
+verbatim updates user,1
+Robbie Manson,1
+kiesel,1
+espiceland,1
+Mifan Careem,1
+Francis Brosnan Blázquez,1
+nehal,1
+Asgeir Birkisson,1
+barryhunter,1
+hsommer,1
+BobSoft3000,1
+bilbo_uk,1
+rowanbeentje,1
+Miles Malerba,1
+Thomas Mueller,1
+mike.boberski,1
+jtaubert,1
+zaidsheikh,1
+Jack Morris,1
+frief,1
+jacobs,1
+sanjaypoyzer,1
+wmeier,1
+gajjargaurav,1
+mrgoil,1
+rkaminski,1
+ph3-der-loewe,1
+Ahmed Agabani,1
+Ewan Birney,1
+Éric Bischoff,1
+Thien-Thi Nguyen,1
+Eelco Hillenius,1
+gclayton,1
+David Davis,1
+Eric Gwin,1
+Dominic Spill,1
+Alfredo Pironti,1
+fratesi,1
+ɯoɔ˙ɔᴉƃᴉpoɹd@ʎǝʌɐp,1
+Aurelio Jargas,1
+etenbrink,1
+dawood.tariq,1
+alex,1
+Jürgen Weber,1
+nunojpg,1
+dan,1
+chrisisbeef,1
+rhiaro,1
+Philip Graham,1
+Chris van Lith,1
+taffy41,1
+anishikawa,1
+Paul Grigoras,1
+balliano,1
+Ali Lloyd,1
+oliver,1
+Rlk,1
+bruno,1
+Samuel Ryan,1
+CiviCRM Publisher,1
+martin.v.loewis,1
+Yuri Schaeffer,1
+Lukas Solanka,1
+elmar,1
+blimp,1
+solomax666@gmail.com,1
+Matt Thomson,1
+Kaveh Keshavarzi,1
+evernat,1
+Calum Chamberlain work,1
+Nigel Ward,1
+ofv,1
+rlaemmel,1
+jcaballe,1
+leo,1
+Pablo Hoffman,1
+sikeda,1
+jpbraun,1
+scud1,1
+bpeng2000,1
+Paul D. Fernhout,1
+google-oss-bot,1
+Sam Burns,1
+kherm,1
+klimek,1
+Andrew Mann,1
+jfsicilia,1
+fjahanian,1
+tvrossum,1
+dainese,1
+sponce,1
+R. David Murray,1
+Rafael Teixeira,1
+kleopatra,1
+Owen Ben Davies,1
+tunedal,1
+Sardor Davlenov,1
+James Zinger,1
+ownCloud Jenkins,1
+builder,1
+scottl,1
+bacon,1
+Stuart Longland,1
+jervin,1
+conda-forge-admin,1
+NaN,1
+svn,1
+ulf.fredriksson,1
+Patrice Clement,1
+jjomier,1
+gopala-kr,1
+David White,1
+fca,1
+Alessandro Vullo,1
+berndl,1
+Frédéric ARNAUD,1
+Yongmin Hong,1
+Michael Wild,1
+creich,1
+faisaltheparttimecoder,1
+eelco.hillenius,1
+Oliver Metz,1
+joseph.lizier,1
+t_voss,1
+Ben Falk,1
+Andy Seaborne,1
+juhosg,1
+Floev,1
+framebuster,1
+t00fcxen,1
+gierds,1
+borgem,1
+The Raspberry Pi Guy,1
+mschilli,1
+rdm,1
+yinolat,1
+Tony DeBat,1
+yoderme,1
+vpj-cd,1
+akhaldi,1
+kessler44,1
+Petr Kubánek,1
+kz26,1
+Dzomo the everest Yak,1
+David Aspinall,1
+Duncan Macleod,1
+blitze,1
+wangdi,1
+malcata,1
+Stefan Ott,1
+laforge,1
+miguelmesquita,1
+Andrew Eisenberg,1
+Andreas Mülder,1
+Mark Andrews,1
+Emil Nilsson,1
+rvm,1
+David Robillard,1
+Kajakaran,1
+Jon Brouse,1
+russo,1
+KatarinaNino,1
+Olle Johansson,1
+knghtbrd,1
+jglick,1
+OpenPOWER Host OS Builds Bot,1
+MoeBrowne,1
+Karen Tsao,1
+hanming,1
+Daniel 'MrAdder' Green,1
+bert-e,1
+Owen O'Malley,1
+illiminable,1
+Robert Nelson,1
+DDuarte,1
+thomas.hilpold@gmail.com,1
+Automerger Merge Worker,1
+Roland McGrath,1
+hadraoui,1
+tom,1
+bradtofel,1
+Aaren Cooper,1
+Баранихин Юрий Владимирович,1
+beinn,1
+vijay_pande,1
+Nathan Hamblen,1
+roybaer,1
+Geert Janssens,1
+greatlrd,1
+HD Moore,1
+Neil Fraser,1
+kgs,1
+Benjamin Schmaus,1
+brockho,1
+Karsten Keil,1
+alexandre.vassalotti,1
+cpbotha,1
+dervin,1
+borrillis,1
+grosser,1
+Guillaume Cottenceau,1
+Nigel Daley,1
+Ken Hawkins,1
+John Ericson,1
+Michael Aye,1
+Grant Ingersoll,1
+ronh,1
+wmaddisn,1
+Ercan Özkaya,1
+Nate Nystrom,1
+georgebina76,1
+Alexandre Beaulieu,1
+crschmidt,1
+thomasguillot,1
+pcc,1
+Justin Wozniak,1
+steve.brazier,1
+garylittleRLP,1
+Marco Egli,1
+mspencer,1
+nlopes,1
+marian,1
+loaden,1
+Allan McAleavy,1
+David,1
+Franck TALBART,1
+akaruiws,1
+npenin,1
+Richard M. Stallman,1
+raptorfactor,1
+Alexander Harkness,1
+spiegelian,1
+John Berry,1
+chandlerc,1
+ctbot,1
+Allen Winter,1
+DanGrew,1
+amaury.forgeotdarc,1
+Stephen Connolly,1
+Guillaume Laforge,1
+manju_sama,1
+João Prado Maia,1
+tom5760,1
+Philip Stubbs,1
+marcuslos,1
+Matt Pease,1
+dt,1
+Laetitia Mouloud,1
+nimuelle,1
+Kieran Hester,1
+cmb69,1
+Alex Walker,1
+logg,1
+Astrid Sawatzky,1
+sga06,1
+Filipa Lacerda,1
+Alex Johnson,1
+Armin Rigo,1
+Matt,1
+cdelia,1
+Michael McNamara,1
+Pivotal Publication Toolsmiths,1
+guilhem.duche,1
+jenkins-bot,1
+harsha,1
+zaks,1
+Riccardo De Maria,1
+Kurt Raschke,1
+Don Allingham,1
+Vytautas Civilis,1
+Philip John,1
+nevans,1
+Darragh Bailey,1
+zhanyong.wan,1
+jan,1
+Gabriel Aviles,1
+fmalikoff,1
+krj,1
+wittend99,1
+José Magalhães,1
+James Strachan,1
+magenx,1
+Wim Brouw,1
+Paul Nowoczynski,1
+bknerr,1
+csilvers,1
+Bruno Haible,1
+jhover,1
+Jonathan Tsai,1
+Travis CI,1
+law,1
+acoul,1
+kathryn,1
+George Buckingham,1
+linkvt,1
+Pete Willemsen,1
+2194479,1
+Jens-Heiner Rechtien,1
+bennylp,1
+Tobias Bocanegra,1
+Christian Hamar alias krix,1
+Roar Thronæs,1
+ntoro,1
+yulin,1
+Jaffrin Salam,1
