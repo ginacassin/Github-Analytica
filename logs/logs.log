@@ -21,3 +21,833 @@
 14           Go     88
 [Top 15 languages] 2023-12-12 10:31:38,799 INFO Saving result top_15_languages.csv
 [Top 15 languages] 2023-12-12 10:31:38,888 INFO Script Top15Languages finished
+[Top 5 licenses] 2023-12-14 02:58:34,030 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 02:58:34,030 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 02:58:34,030 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 02:58:38,195 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 02:59:02,463 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 02:59:02,463 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 02:59:02,463 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 02:59:06,554 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 02:59:07,758 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 02:59:13,558 INFO Top 5 licenses: 
+                       ext  files_w_tabs  files_w_spaces  total_files
+0                     pdf             0               0            0
+1                    java             0               0            0
+2                  doclog             0               0            0
+3                       h             0               0            0
+4                     tmp             0               0            0
+5  inbcfabbceaafffefafdab             0               0            0
+6                     txt             0               0            0
+[Top 5 licenses] 2023-12-14 02:59:13,562 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 02:59:13,686 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:02:22,257 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:02:22,257 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:02:22,257 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:02:26,731 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:02:29,796 INFO Top 5 licenses: 
+                       ext  files_w_tabs  files_w_spaces  total_files
+0                     pdf             0               0            0
+1                    java             0               0            0
+2                  doclog             0               0            0
+3                       h             0               0            0
+4                     tmp             0               0            0
+5  inbcfabbceaafffefafdab             0               0            0
+6                     txt             0               0            0
+[Top 5 licenses] 2023-12-14 03:02:29,797 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:02:29,904 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:03:11,305 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:03:11,306 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:03:11,306 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:03:15,857 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:03:19,001 INFO Top 5 licenses: 
+                        ext  files_w_tabs  files_w_spaces  total_files
+0                      pdf             0               0            0
+1                     java             0               0            0
+2                   doclog             0               0            0
+3                        h             0               0            0
+4                      tmp             0               0            0
+5   inbcfabbceaafffefafdab             0               0            0
+6                      txt             0               0            0
+7                      php             0               0            0
+8                        i             0               0            0
+9                      png             0               0            0
+10               gitignore             0               0            0
+11                      js             0               0            0
+12                     css             0               0            0
+13                    json             0               0            0
+14                      kt             0               0            0
+15                      py             0               0            0
+[Top 5 licenses] 2023-12-14 03:03:19,003 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:03:19,114 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:04:45,880 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:04:45,880 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:04:45,880 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:04:50,277 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:04:52,894 INFO Top 5 licenses: 
+   ext  files_w_tabs  files_w_spaces  total_files
+0  py             0               0            0
+[Top 5 licenses] 2023-12-14 03:04:52,896 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:04:52,976 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:05:15,078 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:05:15,078 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:05:15,078 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:07:13,222 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:07:13,222 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:07:13,222 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:07:45,019 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:07:45,019 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:07:45,019 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:07:49,613 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:07:52,371 INFO Top 5 licenses: 
+   ext  files_w_tabs  files_w_spaces  total_files
+0  py           NaN             NaN          NaN
+[Top 5 licenses] 2023-12-14 03:07:52,372 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:07:52,458 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:09:59,396 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:09:59,396 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:09:59,396 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:10:41,753 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:10:41,753 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:10:41,753 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:10:46,302 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:10:49,119 INFO Top 5 licenses: 
+   ext  files_w_tabs  files_w_spaces  total_files
+0  py           NaN             NaN          NaN
+[Top 5 licenses] 2023-12-14 03:10:49,121 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:10:49,201 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:11:32,625 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:11:32,625 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:11:32,625 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:11:37,109 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:11:39,456 INFO Top 5 licenses: 
+   ext  files_w_tabs  files_w_spaces  total_files
+0  py           NaN             NaN          NaN
+[Top 5 licenses] 2023-12-14 03:11:39,457 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:11:39,539 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:12:09,454 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:12:09,454 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:12:09,454 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:12:14,050 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:12:16,442 INFO Top 5 licenses: 
+   ext  files_w_tabs  files_w_spaces  total_files
+0  py           NaN             NaN          NaN
+[Top 5 licenses] 2023-12-14 03:12:16,444 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:12:16,641 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:12:55,717 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:12:55,717 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:12:55,717 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:13:59,578 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:13:59,578 INFO Running script TabsVsSpaces
+[Top 5 licenses] 2023-12-14 03:13:59,578 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:14:04,114 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:14:06,574 INFO Top 5 licenses: 
+   ext  files_w_tabs  files_w_spaces  total_files
+0  py           NaN             NaN          NaN
+[Top 5 licenses] 2023-12-14 03:14:06,577 INFO Saving result tabs_vs_spaces.csv
+[Top 5 licenses] 2023-12-14 03:14:06,761 INFO Script TabsVsSpaces finished
+[Top 5 licenses] 2023-12-14 03:23:25,896 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:23:25,896 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:23:25,896 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:23:32,000 INFO Top 5 licenses: 
+                                       repo_name  ... modification_count
+0                                  oar-team/oar  ...                  1
+1                               jpush/jchat-ios  ...                  1
+2                              KDE/breeze-icons  ...                  1
+3                            kmatheussen/radium  ...                  1
+4                          khanlou/InstantCocoa  ...                  1
+...                                         ...  ...                ...
+1515                          olistudent/freetz  ...                  1
+1516                        KrauseFx/TSMessages  ...                  1
+1517                          aimaletdinow/LABS  ...                  1
+1518  TREX-ROM/android_kernel_lge_hammerheadcaf  ...                  1
+1519                 amalappunni/msm8916_jalebi  ...                  1
+
+[1520 rows x 3 columns]
+[Top 5 licenses] 2023-12-14 03:23:32,004 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:23:32,126 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:28:57,687 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:28:57,687 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:28:57,687 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:29:51,722 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:29:51,722 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:29:51,722 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:30:08,405 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:30:08,405 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:30:08,405 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:30:16,483 INFO Top 5 licenses: 
+   commit_date repo_name  count
+0         NaT      None  36354
+[Top 5 licenses] 2023-12-14 03:30:16,485 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:30:16,747 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:31:14,928 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:31:14,928 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:31:14,928 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:31:21,532 INFO Top 5 licenses: 
+   commit_date repo_name  count
+0         NaT      None  36354
+[Top 5 licenses] 2023-12-14 03:31:21,534 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:31:21,595 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:32:16,354 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:32:16,354 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:32:16,354 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:32:53,897 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:32:53,897 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:32:53,897 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:33:42,223 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:33:42,223 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:33:42,223 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:34:59,094 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:34:59,094 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:34:59,094 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:35:06,179 INFO Top 5 licenses: 
+   commit_date repo_name  count
+0         NaT      None  36354
+[Top 5 licenses] 2023-12-14 03:35:06,181 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:35:06,237 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:36:21,113 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:36:21,114 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:36:21,114 INFO Loading table commits for test mode
+[Top 5 licenses] 2023-12-14 03:36:27,623 INFO Top 5 licenses: 
+   commit_date repo_name  count
+0         NaT      None  36354
+[Top 5 licenses] 2023-12-14 03:36:27,624 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:36:27,700 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:45:24,217 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:45:24,217 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:45:24,217 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:45:29,174 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:46:34,429 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:46:34,430 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:46:34,430 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:46:38,747 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:47:16,167 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:47:16,167 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:47:16,167 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:47:20,710 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:48:07,082 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:48:07,083 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:48:07,083 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:48:11,197 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:48:14,086 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, sample_repo_name, sample_path]
+Index: []
+[Top 5 licenses] 2023-12-14 03:48:14,087 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:48:14,095 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:48:42,318 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:48:42,318 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:48:42,319 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:48:46,744 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:48:49,484 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, sample_repo_name, sample_path]
+Index: []
+[Top 5 licenses] 2023-12-14 03:48:49,485 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:48:49,493 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 03:49:16,373 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 03:49:16,373 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 03:49:16,373 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 03:49:20,539 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 03:49:23,365 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, sample_repo_name, sample_path]
+Index: []
+[Top 5 licenses] 2023-12-14 03:49:23,366 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 03:49:23,375 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 09:40:20,393 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 09:40:20,393 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 09:40:20,393 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 09:40:24,952 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 09:40:27,791 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, sample_path, sample_repo_name]
+Index: []
+[Top 5 licenses] 2023-12-14 09:40:27,792 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 09:40:27,858 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 09:43:41,765 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 09:43:41,765 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 09:43:41,765 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 09:43:46,552 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 09:43:49,980 INFO Top 5 licenses: 
+                                          id  ...   sample_repo_name
+0  03fc203a9336258cabfcb4b9a0d20787144ffc14  ...      gkc1000/pyscf
+1  1f79a61c58d23363f02ffe9a85bb4003d9d5a6fe  ...  chalasr/Flask-P2P
+2  5b1937e12e273a7ad63cfe9abb6b7dc71e692bbd  ...      gkc1000/pyscf
+3  8c364e2e8c60ab6d055fa91c5da9eb61a26939b0  ...        Siecje/htmd
+4  bcf813250d39a915f76041d0f8c9cece1d58d7fa  ...        gapry/refos
+5  e69de29bb2d1d6434b8b29ae775ad8c2e48c5391  ...        Siecje/htmd
+
+[6 rows x 3 columns]
+[Top 5 licenses] 2023-12-14 09:43:49,984 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 09:43:50,055 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 09:59:10,183 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 09:59:10,183 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 09:59:10,183 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 09:59:14,613 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 09:59:17,443 INFO Top 5 licenses: 
+          id       sample_path sample_repo_name
+0  /target1  /path1/file1.sql            Repo1
+1  /target2  /path2/file2.sql            Repo2
+2  /target3  /path3/file3.sql            Repo3
+3  /target4  /path4/file4.sql            Repo4
+4  /target5  /path5/file5.sql            Repo5
+[Top 5 licenses] 2023-12-14 09:59:17,446 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 09:59:17,529 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 09:59:40,326 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 09:59:40,326 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 09:59:40,326 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 09:59:44,341 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 09:59:48,083 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, sample_repo_name, sample_path]
+Index: []
+[Top 5 licenses] 2023-12-14 09:59:48,083 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 09:59:48,334 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:03:02,586 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:03:02,586 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:03:02,586 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:03:07,057 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:03:11,156 INFO Top 5 licenses: 
+    id           size  ... sample_repo_name       sample_path
+0   4       WX!9(`&!  ...            Repo4  /path4/file4.sql
+1   3        3RI'*U;  ...            Repo3  /path3/file3.sql
+2   4    --major int  ...            Repo4  /path4/file4.sql
+3   5    --major int  ...            Repo5  /path5/file5.sql
+4   1   --indeks int  ...            Repo1  /path1/file1.sql
+5   2   --indeks int  ...            Repo2  /path2/file2.sql
+6   1           None  ...            Repo1  /path1/file1.sql
+7   1           None  ...            Repo1  /path1/file1.sql
+8   1           None  ...            Repo1  /path1/file1.sql
+9   1           None  ...            Repo1  /path1/file1.sql
+10  1           None  ...            Repo1  /path1/file1.sql
+11  1           None  ...            Repo1  /path1/file1.sql
+12  1           None  ...            Repo1  /path1/file1.sql
+13  1           None  ...            Repo1  /path1/file1.sql
+14  1           None  ...            Repo1  /path1/file1.sql
+15  1           None  ...            Repo1  /path1/file1.sql
+16  1           None  ...            Repo1  /path1/file1.sql
+17  2           None  ...            Repo2  /path2/file2.sql
+18  1           None  ...            Repo1  /path1/file1.sql
+19  1           None  ...            Repo1  /path1/file1.sql
+20  1           None  ...            Repo1  /path1/file1.sql
+21  1           None  ...            Repo1  /path1/file1.sql
+22  1           1024  ...            Repo1  /path1/file1.sql
+23  2           2048  ...            Repo2  /path2/file2.sql
+24  3            512  ...            Repo3  /path3/file3.sql
+25  4           4096  ...            Repo4  /path4/file4.sql
+26  5           8192  ...            Repo5  /path5/file5.sql
+
+[27 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:03:11,162 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:03:11,378 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:07:51,032 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:07:51,033 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:07:51,033 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:07:55,992 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:08:02,624 INFO Top 5 licenses: 
+    id           size  ... sample_repo_name       sample_path
+0   4       WX!9(`&!  ...            Repo4  /path4/file4.sql
+1   3        3RI'*U;  ...            Repo3  /path3/file3.sql
+2   4    --major int  ...            Repo4  /path4/file4.sql
+3   5    --major int  ...            Repo5  /path5/file5.sql
+4   1   --indeks int  ...            Repo1  /path1/file1.sql
+5   2   --indeks int  ...            Repo2  /path2/file2.sql
+6   1           None  ...            Repo1  /path1/file1.sql
+7   1           None  ...            Repo1  /path1/file1.sql
+8   1           None  ...            Repo1  /path1/file1.sql
+9   1           None  ...            Repo1  /path1/file1.sql
+10  1           None  ...            Repo1  /path1/file1.sql
+11  1           None  ...            Repo1  /path1/file1.sql
+12  1           None  ...            Repo1  /path1/file1.sql
+13  1           None  ...            Repo1  /path1/file1.sql
+14  1           None  ...            Repo1  /path1/file1.sql
+15  1           None  ...            Repo1  /path1/file1.sql
+16  1           None  ...            Repo1  /path1/file1.sql
+17  2           None  ...            Repo2  /path2/file2.sql
+18  1           None  ...            Repo1  /path1/file1.sql
+19  1           None  ...            Repo1  /path1/file1.sql
+20  1           None  ...            Repo1  /path1/file1.sql
+21  1           None  ...            Repo1  /path1/file1.sql
+22  1           1024  ...            Repo1  /path1/file1.sql
+23  2           2048  ...            Repo2  /path2/file2.sql
+24  3            512  ...            Repo3  /path3/file3.sql
+25  4           4096  ...            Repo4  /path4/file4.sql
+26  5           8192  ...            Repo5  /path5/file5.sql
+
+[27 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:08:02,629 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:08:02,901 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:09:54,094 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:09:54,094 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:09:54,094 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:09:58,507 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:10:02,303 INFO Top 5 licenses: 
+    id           size  ... repo_name              path
+0   4       WX!9(`&!  ...     Repo4  /path4/file4.sql
+1   3        3RI'*U;  ...     Repo3  /path3/file3.sql
+2   4    --major int  ...     Repo4  /path4/file4.sql
+3   5    --major int  ...     Repo5  /path5/file5.sql
+4   1   --indeks int  ...     Repo1  /path1/file1.sql
+5   2   --indeks int  ...     Repo2  /path2/file2.sql
+6   1           None  ...     Repo1  /path1/file1.sql
+7   1           None  ...     Repo1  /path1/file1.sql
+8   1           None  ...     Repo1  /path1/file1.sql
+9   1           None  ...     Repo1  /path1/file1.sql
+10  1           None  ...     Repo1  /path1/file1.sql
+11  1           None  ...     Repo1  /path1/file1.sql
+12  1           None  ...     Repo1  /path1/file1.sql
+13  1           None  ...     Repo1  /path1/file1.sql
+14  1           None  ...     Repo1  /path1/file1.sql
+15  1           None  ...     Repo1  /path1/file1.sql
+16  1           None  ...     Repo1  /path1/file1.sql
+17  2           None  ...     Repo2  /path2/file2.sql
+18  1           None  ...     Repo1  /path1/file1.sql
+19  1           None  ...     Repo1  /path1/file1.sql
+20  1           None  ...     Repo1  /path1/file1.sql
+21  1           None  ...     Repo1  /path1/file1.sql
+22  1           1024  ...     Repo1  /path1/file1.sql
+23  2           2048  ...     Repo2  /path2/file2.sql
+24  3            512  ...     Repo3  /path3/file3.sql
+25  4           4096  ...     Repo4  /path4/file4.sql
+26  5           8192  ...     Repo5  /path5/file5.sql
+
+[27 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:10:02,309 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:10:02,634 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:11:20,387 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:11:20,387 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:11:20,387 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:11:24,945 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:11:31,413 INFO Top 5 licenses: 
+        id  size  ... repo_name              path
+0  1asdfg  1024  ...     Repo1  /path1/file1.sql
+1  2asdfg  2048  ...     Repo2  /path2/file2.sql
+2  3asdfg   512  ...     Repo3  /path3/file3.sql
+3  4asdfg  4096  ...     Repo4  /path4/file4.sql
+4  5asdfg  8192  ...     Repo5  /path5/file5.sql
+
+[5 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:11:31,417 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:11:31,989 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:26:07,673 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:26:07,673 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:26:07,673 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:26:12,273 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:27:07,028 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:27:07,028 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:27:07,028 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:27:11,649 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:27:56,490 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:27:56,490 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:27:56,490 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:28:00,709 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:29:15,351 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:29:15,351 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:29:15,352 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:29:19,485 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:29:25,346 INFO Top 5 licenses: 
+   commas  total_lines  total_files  total_repos sample_line
+0   none            4            4            4        None
+[Top 5 licenses] 2023-12-14 10:29:25,349 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:29:25,425 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:30:18,352 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:30:18,352 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:30:18,352 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:30:22,878 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:30:29,842 INFO Top 5 licenses: 
+        id repo_name  ... has_leading  commas
+0  1asdfg     Repo1  ...       False    none
+1  2asdfg     Repo2  ...       False    none
+2  4asdfg     Repo4  ...       False    none
+3  5asdfg     Repo5  ...       False    none
+
+[4 rows x 6 columns]
+[Top 5 licenses] 2023-12-14 10:30:29,847 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:30:30,077 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:35:37,291 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:35:37,292 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:35:37,292 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:35:41,974 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:35:48,713 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, repo_name, line, has_trailing, has_leading, commas]
+Index: []
+[Top 5 licenses] 2023-12-14 10:35:48,714 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:35:48,941 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:36:15,189 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:36:15,189 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:36:15,189 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:36:19,417 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:36:24,010 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, repo_name, line, has_trailing, has_leading, commas]
+Index: []
+[Top 5 licenses] 2023-12-14 10:36:24,010 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:36:24,299 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:38:23,225 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:38:23,226 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:38:23,226 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:38:27,748 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:38:32,920 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, repo_name, line, has_trailing, has_leading, commas]
+Index: []
+[Top 5 licenses] 2023-12-14 10:38:32,921 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:38:33,227 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:39:35,918 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:39:35,919 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:39:35,919 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:39:40,267 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:39:44,357 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, repo_name, line, has_trailing, has_leading, commas]
+Index: []
+[Top 5 licenses] 2023-12-14 10:39:44,358 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:39:44,607 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:40:09,902 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:40:09,902 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:40:09,902 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:40:14,038 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:40:18,011 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, repo_name, path]
+Index: []
+[Top 5 licenses] 2023-12-14 10:40:18,011 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:40:18,210 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:41:09,487 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:41:09,487 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:41:09,487 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:41:13,962 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:41:19,196 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [commas, total_lines, total_files, total_repos, sample_line]
+Index: []
+[Top 5 licenses] 2023-12-14 10:41:19,196 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:41:19,353 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:41:22,746 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:41:22,746 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:41:22,746 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:41:26,710 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:41:30,625 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, repo_name, path]
+Index: []
+[Top 5 licenses] 2023-12-14 10:41:30,626 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:41:30,836 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:41:35,506 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:41:35,506 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:41:35,506 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:41:39,494 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:41:43,422 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, repo_name, path]
+Index: []
+[Top 5 licenses] 2023-12-14 10:41:43,423 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:41:43,654 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:41:59,820 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:41:59,820 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:41:59,820 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:42:03,904 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:42:07,778 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, repo_name, path]
+Index: []
+[Top 5 licenses] 2023-12-14 10:42:07,779 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:42:08,006 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:42:35,640 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:42:35,640 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:42:35,640 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:42:39,848 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:42:43,704 INFO Top 5 licenses: 
+ Empty DataFrame
+Columns: [id, size, content, binary, copies, repo_name, path]
+Index: []
+[Top 5 licenses] 2023-12-14 10:42:43,704 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:42:43,940 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:43:18,009 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:43:18,009 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:43:18,009 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:43:22,531 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:43:26,856 INFO Top 5 licenses: 
+      id  size  ... repo_name              path
+0  1asd  1024  ...     Repo1  /path1/file1.sql
+1  2asd  2048  ...     Repo2  /path2/file2.sql
+2  3asd   512  ...     Repo3  /path3/file3.sql
+3  4asd  4096  ...     Repo4  /path4/file4.sql
+4  5asd  8192  ...     Repo5  /path5/file5.sql
+
+[5 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:43:26,861 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:43:27,110 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:43:46,575 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:43:46,575 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:43:46,575 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:43:51,028 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:43:58,062 INFO Top 5 licenses: 
+      id repo_name  ... has_leading  commas
+0  1asd     Repo1  ...       False    none
+1  2asd     Repo2  ...       False    none
+2  4asd     Repo4  ...       False    none
+3  5asd     Repo5  ...       False    none
+
+[4 rows x 6 columns]
+[Top 5 licenses] 2023-12-14 10:43:58,066 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:43:58,330 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:45:03,451 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:45:03,452 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:45:03,452 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:45:07,748 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:45:13,229 INFO Top 5 licenses: 
+      id repo_name  ... has_leading  commas
+0  1asd     Repo1  ...       False    none
+1  2asd     Repo2  ...       False    none
+2  4asd     Repo4  ...       False    none
+3  5asd     Repo5  ...       False    none
+
+[4 rows x 6 columns]
+[Top 5 licenses] 2023-12-14 10:45:13,234 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:45:13,766 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:46:24,476 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:46:24,476 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:46:24,476 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:46:29,068 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:46:36,858 INFO Top 5 licenses: 
+      id repo_name  ... has_leading  commas
+0  1asd     Repo1  ...       False    none
+1  2asd     Repo2  ...       False    none
+2  4asd     Repo4  ...       False    none
+3  5asd     Repo5  ...       False    none
+
+[4 rows x 6 columns]
+[Top 5 licenses] 2023-12-14 10:46:36,862 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:46:37,051 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:47:25,129 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:47:25,129 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:47:25,129 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:47:29,705 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:47:36,489 INFO Top 5 licenses: 
+      id repo_name  ... has_leading  commas
+0  1asd     Repo1  ...       False    none
+1  2asd     Repo2  ...       False    none
+2  4asd     Repo4  ...       False    none
+3  5asd     Repo5  ...       False    none
+
+[4 rows x 6 columns]
+[Top 5 licenses] 2023-12-14 10:47:36,493 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:47:36,724 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:48:57,368 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:48:57,368 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:48:57,368 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:49:01,920 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:49:39,992 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:49:39,992 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:49:39,992 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:49:44,455 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:50:33,032 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:50:33,032 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:50:33,032 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:50:37,197 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:50:42,942 INFO Top 5 licenses: 
+      id repo_name  ... commas                                       trimmed_line
+0  1asd     Repo1  ...   none  SELECT id, ANY_VALUE(path) sample_path, ANY_VA...
+1  2asd     Repo2  ...   none  SELECT name, company, salary, state, city FROM...
+2  4asd     Repo4  ...   none  SELECT column1, column2 FROM `table2` WHERE co...
+3  5asd     Repo5  ...   none  SELECT field1, field2 FROM `table3` WHERE cond...
+
+[4 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:50:42,947 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:50:43,203 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:53:05,254 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:53:05,254 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:53:05,254 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:53:09,568 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:54:37,839 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:54:37,839 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:54:37,839 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:54:42,475 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:54:50,415 INFO Top 5 licenses: 
+      id repo_name  ... commas                                       trimmed_line
+0  1asd     Repo1  ...   none  SELECT id, ANY_VALUE(path) sample_path, ANY_VA...
+1  2asd     Repo2  ...   none  SELECT name, company, salary, state, city FROM...
+2  4asd     Repo4  ...   none  SELECT column1, column2 FROM `table2` WHERE co...
+3  5asd     Repo5  ...   none  SELECT field1, field2 FROM `table3` WHERE cond...
+
+[4 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:54:50,420 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:54:50,599 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:56:40,938 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:56:40,939 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:56:40,939 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:56:45,377 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:56:50,746 INFO Top 5 licenses: 
+      id repo_name  ... commas                                       trimmed_line
+0  1asd     Repo1  ...   none  SELECT id, ANY_VALUE(path) sample_path, ANY_VA...
+1  2asd     Repo2  ...   none  SELECT name, company, salary, state, city FROM...
+2  4asd     Repo4  ...   none  SELECT column1, column2 FROM `table2` WHERE co...
+3  5asd     Repo5  ...   none  SELECT field1, field2 FROM `table3` WHERE cond...
+
+[4 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:56:50,750 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:56:51,093 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 10:57:47,853 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 10:57:47,853 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 10:57:47,853 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 10:57:52,373 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 10:58:00,322 INFO Top 5 licenses: 
+      id repo_name  ... commas                                       trimmed_line
+0  1asd     Repo1  ...   none  SELECT id, ANY_VALUE(path) sample_path, ANY_VA...
+1  2asd     Repo2  ...   none  SELECT name, company, salary, state, city FROM...
+2  4asd     Repo4  ...   none  SELECT column1, column2 FROM `table2` WHERE co...
+3  5asd     Repo5  ...   none  SELECT field1, field2 FROM `table3` WHERE cond...
+
+[4 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 10:58:00,327 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 10:58:00,535 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 11:00:40,258 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 11:00:40,258 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 11:00:40,258 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 11:00:44,582 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 11:02:23,737 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 11:02:23,738 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 11:02:23,738 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 11:02:28,454 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 11:02:36,560 INFO Top 5 licenses: 
+      id repo_name  ...  commas                                       trimmed_line
+0  1asd     Repo1  ...    none  SELECT id, ANY_VALUE(path) sample_path, ANY_VA...
+1  2asd     Repo2  ...    none  SELECT name, company, salary, state, city FROM...
+2  4asd     Repo4  ...    none  SELECT column1, column2 FROM `table2` WHERE co...
+3  5asd     Repo5  ...    none  SELECT field1, field2 FROM `table3` WHERE cond...
+
+[4 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 11:02:36,564 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 11:02:36,810 INFO Script Top5Licenses finished
+[Top 5 licenses] 2023-12-14 11:05:07,436 INFO Test mode: True
+[Top 5 licenses] 2023-12-14 11:05:07,436 INFO Running script Top5Licenses
+[Top 5 licenses] 2023-12-14 11:05:07,436 INFO Loading table files for test mode
+[Top 5 licenses] 2023-12-14 11:05:11,606 INFO Loading table contents for test mode
+[Top 5 licenses] 2023-12-14 11:05:17,391 INFO Top 5 licenses: 
+      id repo_name  ...  commas                                       trimmed_line
+0  1asd     Repo1  ...    none  SELECT id, ANY_VALUE(path) sample_path, ANY_VA...
+1  2asd     Repo2  ...    none  SELECT name, company, salary, state, city FROM...
+2  4asd     Repo4  ...    none  SELECT column1, column2 FROM `table2` WHERE co...
+3  5asd     Repo5  ...    none  SELECT field1, field2 FROM `table3` WHERE cond...
+
+[4 rows x 7 columns]
+[Top 5 licenses] 2023-12-14 11:05:17,396 INFO Saving result top_5_licenses.csv
+[Top 5 licenses] 2023-12-14 11:05:17,591 INFO Script Top5Licenses finished
+[Top file names] 2023-12-14 14:56:18,210 INFO Test mode: True
+[Top file names] 2023-12-14 14:56:18,210 INFO Running script TopFileNames
+[Top file names] 2023-12-14 14:56:18,210 INFO Loading table files for test mode
+[Top file names] 2023-12-14 14:56:24,764 INFO Top file names: 
+            path  count
+0      Makefile    201
+1       Kconfig    108
+2     README.md     93
+3  package.json     59
+4      index.js     52
+[Top file names] 2023-12-14 14:56:24,766 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 14:56:24,886 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 14:56:38,135 INFO Test mode: True
+[Top file names] 2023-12-14 14:56:38,136 INFO Running script TopFileNames
+[Top file names] 2023-12-14 14:56:38,136 INFO Loading table files for test mode
+[Top file names] 2023-12-14 14:56:43,500 INFO Top file names: 
+      repo_name  ... extension
+0      EOL/eol  ...      None
+1      np/ling  ...        ll
+2      np/ling  ...        ll
+3      np/ling  ...        ll
+4      np/ling  ...         t
+...        ...  ...       ...
+1520     Repo1  ...       sql
+1521     Repo2  ...       sql
+1522     Repo3  ...       sql
+1523     Repo4  ...       sql
+1524     Repo5  ...       sql
+
+[1525 rows x 7 columns]
+[Top file names] 2023-12-14 14:56:43,504 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 14:56:43,629 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 14:57:35,204 INFO Test mode: True
+[Top file names] 2023-12-14 14:57:35,204 INFO Running script TopFileNames
+[Top file names] 2023-12-14 14:57:35,204 INFO Loading table files for test mode
+[Top file names] 2023-12-14 14:57:41,527 INFO Top file names: 
+            path  count
+0      Makefile    201
+1       Kconfig    108
+2     README.md     93
+3  package.json     59
+4      index.js     52
+[Top file names] 2023-12-14 14:57:41,529 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 14:57:41,650 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 14:59:25,920 INFO Test mode: True
+[Top file names] 2023-12-14 14:59:25,920 INFO Running script TopFileNames
+[Top file names] 2023-12-14 14:59:25,920 INFO Loading table files for test mode
+[Top file names] 2023-12-14 14:59:44,848 INFO Test mode: True
+[Top file names] 2023-12-14 14:59:44,848 INFO Running script TopFileNames
+[Top file names] 2023-12-14 14:59:44,848 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:00:45,317 INFO Test mode: True
+[Top file names] 2023-12-14 15:00:45,317 INFO Running script TopFileNames
+[Top file names] 2023-12-14 15:00:45,317 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:00:52,076 INFO Top file names: 
+ Empty DataFrame
+Columns: [repo_name, ref, path, mode, id, symlink_target, extension]
+Index: []
+[Top file names] 2023-12-14 15:00:52,076 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 15:00:52,387 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 15:01:00,132 INFO Test mode: True
+[Top file names] 2023-12-14 15:01:00,132 INFO Running script TopFileNames
+[Top file names] 2023-12-14 15:01:00,132 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:01:05,768 INFO Top file names: 
+            repo_name  ... extension
+0        gapry/refos  ...        py
+1      gkc1000/pyscf  ...        py
+2      gkc1000/pyscf  ...        py
+3  chalasr/Flask-P2P  ...        py
+4        Siecje/htmd  ...        py
+5        Siecje/htmd  ...        py
+6        Siecje/htmd  ...        py
+7        Siecje/htmd  ...        py
+
+[8 rows x 7 columns]
+[Top file names] 2023-12-14 15:01:05,772 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 15:01:05,860 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 15:01:37,496 INFO Test mode: True
+[Top file names] 2023-12-14 15:01:37,496 INFO Running script TopFileNames
+[Top file names] 2023-12-14 15:01:37,496 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:01:45,356 INFO Top file names: 
+            path  count
+0      Makefile    201
+1       Kconfig    108
+2     README.md     93
+3  package.json     59
+4      index.js     52
+[Top file names] 2023-12-14 15:01:45,357 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 15:01:45,495 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 15:01:53,329 INFO Test mode: True
+[Top file names] 2023-12-14 15:01:53,329 INFO Running script TopFileNames
+[Top file names] 2023-12-14 15:01:53,329 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:03:06,259 INFO Test mode: True
+[Top file names] 2023-12-14 15:03:06,259 INFO Running script TopFileNames
+[Top file names] 2023-12-14 15:03:06,259 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:03:12,711 INFO Top file names: 
+                        path  count
+0               __init__.py      3
+1  invocation_header_gen.py      1
+2              linecache.py      1
+3         02-dmrg_nevpt2.py      1
+4            test_verify.py      1
+[Top file names] 2023-12-14 15:03:12,713 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 15:03:12,777 INFO Script TopFileNames finished
+[Top file names] 2023-12-14 15:11:22,242 INFO Test mode: True
+[Top file names] 2023-12-14 15:11:22,243 INFO Running script TopFileNames
+[Top file names] 2023-12-14 15:11:22,243 INFO Loading table files for test mode
+[Top file names] 2023-12-14 15:11:30,040 INFO Top file names: 
+                        path  count
+0               __init__.py      3
+1  invocation_header_gen.py      1
+2              linecache.py      1
+3         02-dmrg_nevpt2.py      1
+4            test_verify.py      1
+[Top file names] 2023-12-14 15:11:30,043 INFO Saving result top_file_names.csv
+[Top file names] 2023-12-14 15:11:30,327 INFO Script TopFileNames finished

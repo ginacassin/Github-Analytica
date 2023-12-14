@@ -7,55 +7,53 @@ class TabsVsSpaces(ScriptInterface):
         super().__init__('Top 5 licenses')
 
     def tabs_vs_spaces(self, contents_df):
-        # Normalizar las extensiones a minúsculas y limpiarlas
+
+        # Normalize and clean extensions
         filtered_df = (
             contents_df
             .withColumn("ext", F.lower(F.regexp_replace(F.regexp_extract("path", r'\.([^\.]*)$', 1), "[^a-z]", "")))
             .filter("ext != ''")
         )
 
-        # Calcular las métricas originales
+        # Calculate metrics
         result_df = (
             filtered_df
-            .withColumn("tabs", F.size(F.expr("FILTER(SPLIT(content, ''), x -> x = '\\t')")))
-            .withColumn("spaces", F.size(F.expr("FILTER(SPLIT(content, ''), x -> x = ' ')")))
-            .withColumn("countext", F.lit(1))  # Since there is only one line in this case
+            .withColumn("tabs", F.when(F.size(F.expr("FILTER(SPLIT(content, '\\n'), x -> regexp_extract(x, '^[ \\t]+', 0) = '\\t')")) > 0, 1).otherwise(0))
+            .withColumn("spaces", F.when(F.size(F.expr("FILTER(SPLIT(content, '\\n'), x -> regexp_extract(x, '^[ \\t]+', 0) = ' ')")) > 0, 1).otherwise(0))
             .withColumn("lratio", F.log((F.col("spaces") + 1) / (F.col("tabs") + 1)))
+            .withColumn("countext", F.lit(1).alias("countext"))
             .select("ext", "tabs", "spaces", "countext", "lratio")
             .orderBy("countext", ascending=False)
             .limit(100)
         )
 
-        # Agregar columna 'predominant'
+        # Add 'predominant' column
         result_df = result_df.withColumn("predominant", F.when(F.col("tabs") > F.col("spaces"), "tab")
             .when(F.col("tabs") < F.col("spaces"), "space")
             .otherwise("balanced"))
 
-        # Agrupar por extensión y contar archivos en cada categoría
+        # Group by extension and count files in each category
         grouped_df = result_df.groupBy("ext").agg(
-            F.count(F.when(F.col("predominant") == "tab", 1)).alias("files_w_tabs"),
-            F.count(F.when(F.col("predominant") == "space", 1)).alias("files_w_spaces")
+            F.sum(F.when(F.col("predominant") == "tab", 1)).alias("files_w_tabs"),
+            F.sum(F.when(F.col("predominant") == "space", 1)).alias("files_w_spaces")
         )
-
-        # Seleccionar columnas relevantes
-        final_result = grouped_df.select("ext", "files_w_tabs", "files_w_spaces")
 
         # Ordenar por la suma total de archivos y seleccionar las 5 principales
         top_5_result = (
-            final_result
+            grouped_df
             .withColumn("total_files", F.col("files_w_tabs") + F.col("files_w_spaces"))
             .orderBy(F.col("total_files").desc())
-            .limit(7)
+            .limit(70)
         )
 
         # Save the result to a CSV file
-        self.save_data(top_5_result, 'tabs_vs_spaces')
+        self.save_data(grouped_df, 'tabs_vs_spaces')
 
         return top_5_result
 
     def process_data(self):
         # Obtener 'contents_df' mediante 'get_contents'
-        contents_df = self.get_contents()
+        contents_df = self.get_table('contents')
 
         # Obtener el resultado de 'tabs_vs_spaces'
         top_licenses_df = self.tabs_vs_spaces(contents_df)
