@@ -18,7 +18,7 @@ class SingleLanguages(ScriptInterface):
         # Convert the 'language_name' column to an array of strings
         languages_df = languages_df.withColumn('language_name', f.from_json('language_name', ArrayType(StringType())))
 
-        # Check if the array has only one language, filter repositories with only one language
+        # Filter repositories with only one language
         single_language_repos_df = languages_df.filter(f.size('language_name') == 1)
 
         # Group by language name and count occurrences, with alias count
@@ -34,15 +34,15 @@ class SingleLanguages(ScriptInterface):
 
     def process_data(self):
         # Obtain the top 5 languages
-        top_5_languages_df = self.single_language_repos()
+        top_5_single_languages_df = self.single_language_repos()
 
         # Log and print the result (if in test mode)
         if self.test_mode:
-            top_5_languages_df.show(truncate=False)
-            self.log.info('Top 5 languages: \n %s', top_5_languages_df.toPandas())
+            top_5_single_languages_df.show(truncate=False)
+            self.log.info('Top 5 single languages: \n %s', top_5_single_languages_df.toPandas())
 
         # Save the result to a CSV file
-        self.save_data(top_5_languages_df, 'top_5_single_languages')
+        self.save_data(top_5_single_languages_df, 'top_5_single_languages')
 
 
 if __name__ == "__main__":
