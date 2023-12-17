@@ -27,7 +27,7 @@ The large dataset considered for this project comprises more than 2.8 million op
 
 ## Project structure
 
-The project consists of x number of scripts, each with a specific purpose. They are built from an interface in order to streamline the coding process.
+The project consists of 10 scripts, each with a specific purpose. They are built from an interface in order to streamline the coding process.
 
 The scripts, and a brief explanation of what they do, are as follows:
 
