@@ -30,7 +30,10 @@ class SingleLanguages(ScriptInterface):
         # Select the top 5 languages
         top_languages = sorted_languages.limit(5)
 
-        return top_languages
+        # Extract language names without square brackets
+        top_languages_df = top_languages.withColumn('language_name', f.expr("language_name[0]"))
+
+        return top_languages_df
 
     def process_data(self):
         # Obtain the top 5 languages
