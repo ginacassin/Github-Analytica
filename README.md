@@ -31,19 +31,25 @@ The scripts, and a brief explanation of what they do, are as follows:
 - **Top more active repositories**: obtains the repositories with the most commits and at least 1 commit in the last year.
 - **How many repos have READMEs**: obtains how many repos have a README as documentation.
 - **How many repos have .md**: obtains how many repos have a file.md but isnt a README
-- **repos with only 1 language:** obtains the 5 top combinations of repos that only have 1 language.
-- **repos with more than 1 language:** obtains the 5 top combinations of repos that have more than 1 language.
+- **Top 5 single language repositories**: obtains the top 5 languages used in the repositories with just one language.
+- **Multiple language repositories**: obtains and combines multi-language statistics for repositories. Needs argument -l or --language and a language. Includes: 
+  - Total count of repositories with more than one language
+  - The average number of languages per repository
+  - The top 25 combinations of languages of a certain language. For example, the top 25 languages combinations used in repositories that use Python.
 - **How many repos use different build tools**:
 - **How many use Spaces vs Tabs as an indent method**: obtains which is the best practice as an indent method.
 - **How many SQL files use trailing vs leading comas**: obtains which is the most recognized practice in SQL.
+
 
 ## How to run
 ### Local
 1. Clone the repository.
 2. Install the requirements.
 3. Run the script you want to execute:
-   1. There's a flag for testing purposes (-t or --test), which will run the script on a small subset of the data. For example, to run the `top_15_languages` script on a small subset of the data, run `spark-submit scripts/top_15_languages.py -t`.
-   2. The logs of the script can be found in the `logs` folder. These provide a cleaner view of the script's execution.
+   1. There's a flag for testing purposes (`-t` or `--test`), which will run the script on a small subset of the data. For example, to run the `top_15_languages` script on a small subset of the data, run `spark-submit scripts/top_15_languages.py -t`.
+   2. Some scripts have a flag (`-l` or `--language`) to choose the language to filter the script. For example, to run the `top_5_single_language_repositories` script for the language Python, run `spark-submit scripts/top_5_single_language_repositories.py -t -l Python`.
+   3. The logs of the script can be found in the `logs` folder. These provide a cleaner view of the script's execution.
+
 ### GCP
 Scripts can be run with the following command: `spark-submit scripts/{script_name}.py`. For example, to run the `top_15_languages` script, run `spark-submit scripts/top_15_languages.py`. 
 

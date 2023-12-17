@@ -1,0 +1,26 @@
+language_name,count
+"['C', 'Makefile']",21
+"['C', 'C++', 'Makefile']",17
+"['Go', 'Makefile']",12
+"['C++', 'Makefile']",8
+"['Go', 'Makefile', 'Shell']",7
+"['C', 'Makefile', 'Python']",7
+"['C', 'C++', 'Makefile', 'Python']",4
+"['C', 'C++', 'Makefile', 'Shell']",4
+"['ASP', 'Assembly', 'Awk', 'C', 'C++', 'Clojure', 'Groff', 'Lex', 'Makefile', 'Objective-C', 'Perl', 'Python', 'Scilab', 'Shell', 'UnrealScript', 'Yacc']",4
+"['C', 'C++', 'Groff', 'Makefile', 'NSIS', 'Objective-C', 'Objective-C++', 'Python', 'QMake', 'Shell']",3
+"['C', 'Makefile', 'Shell']",3
+"['C', 'C++', 'Makefile', 'Python', 'Shell']",3
+"['C', 'C#', 'C++', 'CMake', 'Java', 'Makefile', 'OCaml', 'Python', 'Ruby', 'Shell', 'Smalltalk', 'Tcl']",2
+"['ASP', 'ActionScript', 'ApacheConf', 'Batchfile', 'C++', 'CSS', 'Groff', 'HTML', 'JavaScript', 'Makefile', 'PHP', 'Perl', 'Python', 'SQLPL', 'Shell', 'Smarty', 'XSLT']",2
+"['C++', 'Makefile', 'Python', 'Shell']",2
+"['C', 'Makefile', 'Python', 'Shell']",2
+"['C', 'C++', 'Java', 'Makefile']",2
+"['C', 'M4', 'Makefile', 'Shell']",2
+"['C++', 'Makefile', 'Python']",2
+"['C', 'C++', 'CMake', 'Makefile']",2
+"['C', 'Groff', 'Makefile', 'Shell']",2
+"['ASP', 'Assembly', 'Awk', 'C', 'C++', 'Groff', 'Lex', 'Makefile', 'Objective-C', 'Perl', 'Python', 'Scilab', 'Shell', 'SourcePawn', 'UnrealScript', 'Yacc']",2
+"['C', 'Go', 'HTML', 'Makefile', 'Nginx', 'PowerShell', 'Protocol Buffer', 'Python', 'Ruby', 'SaltStack', 'Shell']",2
+"['Awk', 'C', 'C++', 'CMake', 'GLSL', 'Gnuplot', 'Makefile', 'Objective-C', 'Shell']",1
+"['C', 'C++', 'CMake', 'CSS', 'HTML', 'JavaScript', 'Makefile', 'Objective-C', 'Perl', 'QML', 'QMake', 'R', 'Shell', 'TeX', 'XSLT']",1
