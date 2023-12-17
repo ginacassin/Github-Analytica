@@ -6,7 +6,7 @@ GitHub, the go-to hub for developers worldwide, has seen a whopping 12 million c
 
 Now, picture this: you're a student navigating the coding universe or someone just stepping into a new stack. GitHub, with its countless projects, feels like a vast library without a roadmap. The challenge here is real - finding your way through the code maze.
 
-So, what's the plan? We're diving into the GitHub realm to decode the secrets. What programming languages are dominating the scene and what trusty sidekicks (dependencies) are being used.
+So, what's the plan? We're diving into the GitHub realm to decode the secrets. What programming languages are dominating the scene and what tricks are being used.
 
 Why bother, you ask? For students grasping coding nuances or those embarking on a new tech stack, it's like having a guidebook. We aim to demystify GitHub, making it more navigable, and bring you insights into the coding practices that define different languages.  Ready to jump into the GitHub adventure with us? 🚀
 
@@ -23,11 +23,11 @@ The large dataset considered for this project comprises more than 2.8 million op
 - Set .env file with Bucket path to the datasets (see .env for reference)
 
 ## Architecture
-
+- 
 
 ## Project structure
 
-The project consists of 10 scripts, each with a specific purpose. They are built from an interface in order to streamline the coding process.
+The project consists of 9 scripts, each with a specific purpose. They are built from an interface in order to streamline the coding process.
 
 The scripts, and a brief explanation of what they do, are as follows:
 
@@ -35,7 +35,6 @@ The scripts, and a brief explanation of what they do, are as follows:
 - **[Top 15 languages](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_15_languages.py)**: obtains the top 15 languages used in GitHub repositories. 
 - **[Top 5 licenses](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_5_licenses.py)**: obtains the top 5 open-source licenses used in GitHub repositories.
 - **[Main vs master](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/main_vs_master.py)**: obtains the number of repositories that use the master branch vs the main branch as a head branch.
-- **[Top 5 dependencies](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_5_dependencies.py)**: obtains the top 5 dependencies used by the language passed as an argument. Needs argument `-l` or `--language` and a language.
 - **[Most active repos](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_repos_active.py)**: obtains the 25 repos with the most commits and at least one commit in the last two years.
 - **[How many repos have READMEs](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/count_read_me.py)**: obtains how many repos have a README as documentation.
 - **[How many repos have .md](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/count_markdowns_not_readme.py)**: obtains how many repos have a file.md but isn't a README.
