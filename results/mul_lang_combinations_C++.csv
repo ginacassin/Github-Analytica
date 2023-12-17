@@ -1,0 +1,26 @@
+language_name,count
+"['C', 'C++']",34
+"['C', 'C++', 'Makefile']",17
+"['C++', 'CMake']",14
+"['C++', 'QMake']",12
+"['C', 'C++', 'CMake']",9
+"['C++', 'Makefile']",8
+"['C++', 'Shell']",7
+"['C', 'C++', 'Shell']",6
+"['C', 'C++', 'Python']",5
+"['C++', 'Python']",4
+"['C', 'C++', 'Makefile', 'Python']",4
+"['C', 'C++', 'Makefile', 'Shell']",4
+"['C', 'C++', 'Objective-C', 'Shell']",4
+"['ASP', 'Assembly', 'Awk', 'C', 'C++', 'Clojure', 'Groff', 'Lex', 'Makefile', 'Objective-C', 'Perl', 'Python', 'Scilab', 'Shell', 'UnrealScript', 'Yacc']",4
+"['C++', 'CMake', 'Shell']",3
+"['C', 'C#', 'C++']",3
+"['C', 'C++', 'Groff', 'Makefile', 'NSIS', 'Objective-C', 'Objective-C++', 'Python', 'QMake', 'Shell']",3
+"['ASP', 'Assembly', 'Awk', 'C', 'C++', 'Objective-C', 'Objective-C++', 'Perl', 'Python', 'Scala', 'Scilab', 'Shell', 'TeX', 'UnrealScript', 'VimL', 'XSLT']",3
+"['C', 'C++', 'Makefile', 'Python', 'Shell']",3
+"['C', 'C++', 'Objective-C']",3
+"['C', 'C++', 'Python', 'Shell']",3
+"['C++', 'Makefile', 'Python']",2
+"['C', 'C++', 'Java', 'Makefile']",2
+"['C', 'C++', 'Perl', 'Shell']",2
+"['C', 'C++', 'CMake', 'Makefile']",2
