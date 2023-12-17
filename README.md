@@ -35,7 +35,7 @@ The scripts, and a brief explanation of what they do, are as follows:
 - **[Top 15 languages](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_15_languages.py)**: obtains the top 15 languages used in GitHub repositories. 
 - **[Top 5 licenses](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_5_licenses.py)**: obtains the top 5 open-source licenses used in GitHub repositories.
 - **[Main vs master](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/main_vs_master.py)**: obtains the number of repositories that use the master branch vs the main branch as a head branch.
-- - **Top 5 dependencies**: obtains the top 5 dependencies used by the language passed as an argument. Needs argument `-l` or `--language` and a language.
+- **[Top 5 dependencies](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_5_dependencies.py)**: obtains the top 5 dependencies used by the language passed as an argument. Needs argument `-l` or `--language` and a language.
 - **[Most active repos](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/top_repos_active.py)**: obtains the 25 repos with the most commits and at least one commit in the last two years.
 - **[How many repos have READMEs](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/count_read_me.py)**: obtains how many repos have a README as documentation.
 - **[How many repos have .md](https://github.com/ginacassin/Github-Analytica/blob/main/scripts/count_markdowns_not_readme.py)**: obtains how many repos have a file.md but isn't a README.
