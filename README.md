@@ -28,7 +28,7 @@ The scripts, and a brief explanation of what they do, are as follows:
 - **Top 15 languages**: obtains the top 15 languages used in GitHub repositories. 
 - **Top 5 licenses**: obtains the top 5 open-source licenses used in GitHub repositories.
 - **Master vs main**: obtains the number of repositories that use the master branch vs the main branch as a head branch.
-- **Top more active repositories**: obtains the repositories with the most commits and at least 1 commit in the last year.
+- **Most active repos**: obtains the 25 repos with the most commits and at least one commit in the last two years.
 - **How many repos have READMEs**: obtains how many repos have a README as documentation.
 - **How many repos have .md**: obtains how many repos have a file.md but isnt a README
 - **Top 5 single language repositories**: obtains the top 5 languages used in the repositories with just one language.

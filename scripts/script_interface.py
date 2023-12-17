@@ -92,7 +92,7 @@ class ScriptInterface:
         self.log.info('Loading table %s for test mode', table_name)
         file_path = f'./resources/{table_name}.csv'
 
-        return self.spark.read.csv(file_path, header=True, inferSchema=True)
+        return self.spark.read.option("nullValue", "").csv(file_path, header=True, inferSchema=True)
 
     def load_data_prod(self, table_name):
         """
@@ -104,7 +104,7 @@ class ScriptInterface:
         self.log.info('Loading table %s for production mode', table_name)
         bucket = os.getenv('BUCKET')
 
-        return self.spark.read.csv(f'{bucket}/{table_name}.csv', header=True, inferSchema=True)
+        return self.spark.read.option("nullValue", "").csv(f'{bucket}/{table_name}.csv', header=True, inferSchema=True)
 
     def process_data(self):
         """
