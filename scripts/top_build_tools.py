@@ -1,4 +1,4 @@
-#spark-submit scripts/top_file_names.py -t
+#spark-submit scripts/top_build_tools.py -t
 
 from script_interface import ScriptInterface
 import sys
