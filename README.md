@@ -28,8 +28,11 @@ The scripts, and a brief explanation of what they do, are as follows:
 - **Top 15 languages:** obtains the top 15 languages used in GitHub repositories. 
 - **Top 5 licenses**: obtains the top 5 open-source licenses used in GitHub repositories.
 - **Master vs main**: obtains the number of repositories that use the master branch vs the main branch as a head branch.
-- **Top 5 single language repositories**: obtains the top 5 languages used in the repositories with just 1 language used.
-- **Multiple language repositories**: obtains and combines multi-language statistics for repositories, including the total count of repositories with more than one language, the average number of languages per repository, and the top 5 combinations of languages.
+- **Top 5 single language repositories**: obtains the top 5 languages used in the repositories with just one language.
+- **Multiple language repositories**: obtains and combines multi-language statistics for repositories. Includes: 
+  - Total count of repositories with more than one language
+  - The average number of languages per repository
+  - The top 25 combinations of languages of a certain language. For example, the top 25 languages combinations used in repositories that use Python.
 
 ## How to run
 ### Local
