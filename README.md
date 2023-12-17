@@ -40,7 +40,9 @@ The scripts, and a brief explanation of what they do, are as follows:
 2. Install the requirements.
 3. Run the script you want to execute:
    1. There's a flag for testing purposes (-t or --test), which will run the script on a small subset of the data. For example, to run the `top_15_languages` script on a small subset of the data, run `spark-submit scripts/top_15_languages.py -t`.
-   2. The logs of the script can be found in the `logs` folder. These provide a cleaner view of the script's execution.
+   2. Some scripts have a flag (`-l or --language`) to choose the language to filter the script. For example, to run the `top_5_single_language_repositories` script for the language Python, run `spark-submit scripts/top_5_single_language_repositories.py -t -l Python`.
+   3. The logs of the script can be found in the `logs` folder. These provide a cleaner view of the script's execution.
+
 ### GCP
 Scripts can be run with the following command: `spark-submit scripts/{script_name}.py`. For example, to run the `top_15_languages` script, run `spark-submit scripts/top_15_languages.py`. 
 
