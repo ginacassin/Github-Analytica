@@ -1,3 +1,6 @@
 # ignore files on logs folder
 logs/*
 ```
+get-pip.py
+.DS_Store
+scripts/__pycache__/script_interface.cpython-311.pyc

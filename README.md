@@ -30,15 +30,13 @@ The scripts, and a brief explanation of what they do, are as follows:
 - **Master vs main**: obtains the number of repositories that use the master branch vs the main branch as a head branch.
 - **Most active repos**: obtains the 25 repos with the most commits and at least one commit in the last two years.
 - **How many repos have READMEs**: obtains how many repos have a README as documentation.
-- **How many repos have .md**: obtains how many repos have a file.md but isnt a README
+- **How many repos have .md**: obtains how many repos have a file.md but isn't a README.
 - **Top 5 single language repositories**: obtains the top 5 languages used in the repositories with just one language.
 - **Multiple language repositories**: obtains and combines multi-language statistics for repositories. Needs argument -l or --language and a language. Includes: 
   - Total count of repositories with more than one language
   - The average number of languages per repository
   - The top 25 combinations of languages of a certain language. For example, the top 25 languages combinations used in repositories that use Python.
-- **How many repos use different build tools**:
-- **How many use Spaces vs Tabs as an indent method**: obtains which is the best practice as an indent method.
-- **How many SQL files use trailing vs leading comas**: obtains which is the most recognized practice in SQL.
+- **Top build tools**: obtains the top build tools used with the number of repositories using them.
 
 
 ## How to run
