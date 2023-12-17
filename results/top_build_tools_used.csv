@@ -1,6 +1,15 @@
-Herramienta,NumRepositorios
+tool,count_repos
 Makefile,60
 package.json,31
 requirements.txt,1
-webpack.config.js,0
+CMakeLists.txt,0
+pom.xml,0
 build.gradle,0
+Dockerfile,0
+Jenkinsfile,0
+.travis.yml,0
+webpack.config.js,0
+yarn.lock,0
+build.xml,0
+XcodeProj,0
+build.sh,0

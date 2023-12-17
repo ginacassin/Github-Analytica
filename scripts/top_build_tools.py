@@ -1,9 +1,5 @@
-#spark-submit scripts/top_build_tools.py -t
-
 from script_interface import ScriptInterface
-import sys
-from pyspark.sql.functions import col, size
-from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
 
 
 class TopBuildTools(ScriptInterface):
@@ -12,10 +8,10 @@ class TopBuildTools(ScriptInterface):
 
     def top_build_tools_used(self):
         """
-        Retrieves the top build tools used with the number of repositories using them.
+        Works with 'files' table.
+        Obtains the number of repositories that use each of the build tools.
+        :return: A DataFrame with the number of repositories that use each of the build tools.
         """
-
-        spark = SparkSession.builder.appName("top_build_tools_used").getOrCreate()
 
         build_tool_files = [
             "Makefile",
@@ -51,12 +47,11 @@ class TopBuildTools(ScriptInterface):
         result_data = [(tool, info["count"]) for tool, info in tool_info.items()]
 
         # Especifica manualmente los tipos de datos para cada columna
-        result_df = spark.createDataFrame(result_data, ["Herramienta", "NumRepositorios"],
+        result_df = self.spark.createDataFrame(result_data, ["tool", "count_repos"],
                                         ["string", "integer"])
         
-        result_df = result_df.orderBy(col("NumRepositorios").desc()).limit(5)
+        result_df = result_df.orderBy(col("count_repos").desc())
 
-        # Agrega una columna adicional para mostrar el conteo total de ocurrencias de cada herramienta
         return result_df
 
     def process_data(self):
@@ -65,7 +60,7 @@ class TopBuildTools(ScriptInterface):
         # Log and print the result (if in test mode)
         if self.test_mode:
             top_build_tools_used.show(truncate=False)
-            self.log.info('Top file names: \n %s', top_build_tools_used.toPandas())
+            self.log.info('Build tools used by repo: \n %s', top_build_tools_used.toPandas())
 
         # Save the result to a CSV file
         self.save_data(top_build_tools_used, 'top_build_tools_used')
