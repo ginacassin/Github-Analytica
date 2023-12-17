@@ -1,6 +1,0 @@
-total_multi_language_repos,avg_languages_per_repo,language_combination,count
-902,4.358,"['C', 'C++']",303
-902,4.358,"['C', 'Shell']",260
-902,4.358,"['C++', 'Shell']",217
-902,4.358,"['C', 'Makefile']",186
-902,4.358,"['C', 'Python']",179
