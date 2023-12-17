@@ -1,0 +1,26 @@
+language_name,count
+"['C', 'C++']",34
+"['C', 'Makefile']",21
+"['C', 'Shell']",18
+"['C', 'C++', 'Makefile']",17
+"['C', 'Objective-C', 'Ruby', 'Shell']",11
+"['C', 'Python']",11
+"['C', 'C++', 'CMake']",9
+"['C', 'Objective-C', 'Ruby']",8
+"['C', 'Makefile', 'Python']",7
+"['C', 'C++', 'Shell']",6
+"['C', 'Objective-C']",5
+"['C', 'C++', 'Python']",5
+"['C', 'Perl', 'Shell']",5
+"['C', 'C++', 'Makefile', 'Python']",4
+"['C', 'C++', 'Makefile', 'Shell']",4
+"['C', 'C++', 'Objective-C', 'Shell']",4
+"['ASP', 'Assembly', 'Awk', 'C', 'C++', 'Clojure', 'Groff', 'Lex', 'Makefile', 'Objective-C', 'Perl', 'Python', 'Scilab', 'Shell', 'UnrealScript', 'Yacc']",4
+"['C', 'C++', 'Groff', 'Makefile', 'NSIS', 'Objective-C', 'Objective-C++', 'Python', 'QMake', 'Shell']",3
+"['C', 'C#', 'C++']",3
+"['C', 'Makefile', 'Shell']",3
+"['ASP', 'Assembly', 'Awk', 'C', 'C++', 'Objective-C', 'Objective-C++', 'Perl', 'Python', 'Scala', 'Scilab', 'Shell', 'TeX', 'UnrealScript', 'VimL', 'XSLT']",3
+"['C', 'C++', 'Makefile', 'Python', 'Shell']",3
+"['C', 'Ruby']",3
+"['C', 'C++', 'Objective-C']",3
+"['C', 'C++', 'Python', 'Shell']",3
