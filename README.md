@@ -55,7 +55,20 @@ The scripts, and a brief explanation of what they do, are as follows:
    3. The logs of the script can be found in the `logs` folder. These provide a cleaner view of the script's execution.
 
 ### GCP
-Scripts can be run with the following command: `spark-submit scripts/{script_name}.py`. For example, to run the `top_15_languages` script, run `spark-submit scripts/top_15_languages.py`. 
+1. Clone the scripts in the bucket, in the same directories as in the repo. Also store the datasets in `/data`
+2. Install requirements:
+  ```
+  python -m pip install python-dotenv
+  
+  export BUCKET={bucket_dir}
+  
+  cd ~
+  mkdir logs
+  
+  touch logs/logs.log
+  ```
+
+3. Scripts can be run with the following commands: `spark-submit --py-files $BUCKET/scripts/script_interface.py $BUCKET/scripts/{script_name}.py`. For example, to run the `top_15_languages` script, run `spark-submit --py-files $BUCKET/scripts/script_interface.py $BUCKET/scripts/top_15_languages.py`. 
 
 ## About the datasets
 When searching for large datasets, we found out Google Cloud offers multiple public datasets through the BigQuery platform. Our dataset originates directly from GitHub, publicly available on BigQuery under "[Github Activity Data on BigQuery](https://console.cloud.google.com/marketplace/product/github/github-repos)". It has data up to November of 2022.
