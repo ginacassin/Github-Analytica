@@ -1,0 +1,26 @@
+language_name,count
+"['CSS', 'HTML', 'Java', 'JavaScript']",26
+"['CSS', 'PHP']",25
+"['ASP', 'C#', 'CSS', 'JavaScript']",12
+"['CSS', 'HTML', 'PHP']",9
+"['ASP', 'C#', 'CSS', 'HTML', 'JavaScript']",6
+"['CSS', 'HTML', 'Java']",5
+"['CSS', 'Dart', 'HTML']",4
+"['CSS', 'Go', 'HTML', 'JavaScript']",3
+"['CSS', 'HTML', 'Java', 'Shell']",3
+"['CSS', 'Go']",3
+"['CSS', 'HTML', 'Java', 'XSLT']",2
+"['C#', 'CSS', 'HTML', 'JavaScript', 'TypeScript']",2
+"['ASP', 'ActionScript', 'ApacheConf', 'Batchfile', 'C++', 'CSS', 'Groff', 'HTML', 'JavaScript', 'Makefile', 'PHP', 'Perl', 'Python', 'SQLPL', 'Shell', 'Smarty', 'XSLT']",2
+"['CSS', 'HTML', 'PHP', 'Shell']",2
+"['ASP', 'C#', 'CSS', 'HTML', 'JavaScript', 'XSLT']",2
+"['ASP', 'C#', 'CSS', 'HTML', 'JavaScript', 'TypeScript']",2
+"['ASP', 'Batchfile', 'C#', 'CSS', 'HTML', 'JavaScript', 'Pascal', 'Shell']",2
+"['C#', 'CSS', 'HTML', 'JavaScript']",2
+"['C#', 'CSS', 'JavaScript']",2
+"['ASP', 'CSS', 'HTML', 'JavaScript']",1
+"['CSS', 'PHP', 'SQLPL', 'TeX']",1
+"['C++', 'CSS', 'HTML', 'M4', 'R', 'Shell', 'Stan']",1
+"['C', 'CSS', 'Nginx', 'PHP', 'Python', 'Shell']",1
+"['C', 'CSS', 'Python']",1
+"['C++', 'CSS', 'GAP', 'HTML', 'Java', 'JavaScript', 'Protocol Buffer', 'Python', 'Scala', 'Shell', 'Thrift']",1

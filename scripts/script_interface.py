@@ -14,20 +14,27 @@ class ScriptInterface:
     :type app_name: str
     """
 
-    def __init__(self, app_name):
-        # Set parsing arguments
-        parser = argparse.ArgumentParser()
-        parser.add_argument('-t', '--test', action='store_true', help='Set to launch in test mode')
+    def __init__(self, app_name, language=None):
+        self.parser = self.set_parser(language)
 
         load_dotenv()
 
         self.app_name = app_name
         self.log = self.set_logging()  # Set logging configuration
         self.spark = self.create_spark_session()
-        self.test_mode = parser.parse_args().test
+        self.test_mode = self.parser.parse_args().test
         self.data_set = 'bigquery-public-data.github_repos'
 
         self.log.info('Test mode: %s', self.test_mode)
+
+    def set_parser(self, language=None):
+        # Set parsing arguments
+        parser = argparse.ArgumentParser()
+        if language is True: # If the script needs to be filtered by language
+            parser.add_argument('-l', '--language', type=str, help='Choose language to filter', required=True)
+        parser.add_argument('-t', '--test', action='store_true', help='Set to launch in test mode')
+
+        return parser
 
     def create_spark_session(self):
         """
@@ -85,7 +92,7 @@ class ScriptInterface:
         self.log.info('Loading table %s for test mode', table_name)
         file_path = f'./resources/{table_name}.csv'
 
-        return self.spark.read.csv(file_path, header=True, inferSchema=True)
+        return self.spark.read.option("nullValue", "").csv(file_path, header=True, inferSchema=True)
 
     def load_data_prod(self, table_name):
         """
@@ -97,7 +104,7 @@ class ScriptInterface:
         self.log.info('Loading table %s for production mode', table_name)
         bucket = os.getenv('BUCKET')
 
-        return self.spark.read.csv(f'{bucket}/{table_name}.csv', header=True, inferSchema=True)
+        return self.spark.read.option("nullValue", "").csv(f'{bucket}/{table_name}.csv', header=True, inferSchema=True)
 
     def process_data(self):
         """
