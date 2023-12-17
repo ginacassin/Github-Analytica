@@ -1,6 +1,7 @@
 import argparse
 import logging
 import os
+from google.cloud import storage
 from dotenv import load_dotenv
 from pyspark.sql import SparkSession
 from pyspark import SparkConf, SparkContext
@@ -19,18 +20,18 @@ class ScriptInterface:
 
         load_dotenv()
 
+        self.bucket = os.getenv('BUCKET')
         self.app_name = app_name
-        self.log = self.set_logging()  # Set logging configuration
         self.spark = self.create_spark_session()
         self.test_mode = self.parser.parse_args().test
-        self.data_set = 'bigquery-public-data.github_repos'
+        self.log = self.set_logging()  # Set logging configuration
 
         self.log.info('Test mode: %s', self.test_mode)
 
     def set_parser(self, language=None):
         # Set parsing arguments
         parser = argparse.ArgumentParser()
-        if language is True: # If the script needs to be filtered by language
+        if language is True:  # If the script needs to be filtered by language
             parser.add_argument('-l', '--language', type=str, help='Choose language to filter', required=True)
         parser.add_argument('-t', '--test', action='store_true', help='Set to launch in test mode')
 
@@ -59,10 +60,11 @@ class ScriptInterface:
         logger = logging.getLogger(self.app_name)
         logger.setLevel(logging.INFO)
 
-        formatter = logging.Formatter('[%(name)s] %(asctime)s %(levelname)s %(message)s') # Create formatter
+        formatter = logging.Formatter('[%(name)s] %(asctime)s %(levelname)s %(message)s')  # Create formatter
 
         # Create file handler and set formatter
         file_handler = logging.FileHandler('./logs/logs.log')
+
         file_handler.setFormatter(formatter)
 
         # Add file handler to logger
@@ -102,9 +104,10 @@ class ScriptInterface:
         :return: Spark dataframe with the table data.
         """
         self.log.info('Loading table %s for production mode', table_name)
-        bucket = os.getenv('BUCKET')
 
-        return self.spark.read.option("nullValue", "").csv(f'{bucket}/{table_name}.csv', header=True, inferSchema=True)
+        return self.spark.read.option("nullValue", "").csv(f'{self.bucket}/data/{table_name}.csv', header=True,
+                                                           inferSchema=True)
+
 
     def process_data(self):
         """
@@ -122,7 +125,10 @@ class ScriptInterface:
         """
         self.log.info('Saving result %s.csv', table_name)
 
-        df.toPandas().to_csv(f'./results/{table_name}.csv', index=False, sep=',')
+        if self.test_mode:
+            df.toPandas().to_csv(f'./results/{table_name}.csv', index=False, sep=',')
+        else:
+            df.toPandas().to_csv(f'{self.bucket}/results/{table_name}.csv', index=False, sep=',')
 
     def run(self):
         """
