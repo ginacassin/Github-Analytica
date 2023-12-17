@@ -23,7 +23,7 @@ The large dataset considered for this project comprises more than 2.8 million op
 - Set .env file with Bucket path to the datasets (see .env for reference)
 
 ## Architecture
-- 
+The data flow starts with datasets stored in a GCS bucket. Python scripts are run through PySpark jobs, which are submitted to Dataproc, which processes the data and stores the results back in the GCS bucket.
 
 ## Project structure
 
